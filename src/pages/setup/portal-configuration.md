@@ -1,6 +1,6 @@
 ---
 description: "Portal Configuration description."
-icon: "hammer"
+icon: "gear"
 layout: "guide"
 title: "Portal Configuration"
 weight: 9

@@ -1,6 +1,6 @@
 ---
 description: "Learn CSS description."
-icon: "hammer"
+icon: "eye"
 layout: "guide"
 title: "Learn CSS"
 weight: 3

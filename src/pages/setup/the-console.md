@@ -1,6 +1,6 @@
 ---
 description: "The Console description."
-icon: "hammer"
+icon: "command-line"
 layout: "guide"
 title: "The Console"
 weight: 11

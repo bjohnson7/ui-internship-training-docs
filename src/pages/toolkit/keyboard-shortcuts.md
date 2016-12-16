@@ -1,6 +1,6 @@
 ---
 description: "Keyboard Shortcuts description."
-icon: "hammer"
+icon: "speedometer"
 layout: "guide"
 title: "Keyboard Shortcuts"
 weight: 1

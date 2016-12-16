@@ -1,6 +1,6 @@
 ---
 description: "Bug Fixes description."
-icon: "hammer"
+icon: "menu-content"
 layout: "guide"
 title: "Bug Fixes"
 weight: 8

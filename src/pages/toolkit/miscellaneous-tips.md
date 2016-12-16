@@ -1,6 +1,6 @@
 ---
 description: "Miscellaneous Tips description."
-icon: "hammer"
+icon: "pen"
 layout: "guide"
 title: "Miscellaneous Tips"
 weight: 9

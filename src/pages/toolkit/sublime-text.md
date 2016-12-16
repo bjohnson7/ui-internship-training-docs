@@ -1,6 +1,6 @@
 ---
 description: "Sublime Text description."
-icon: "hammer"
+icon: "code-file"
 layout: "guide"
 title: "Sublime Text"
 weight: 3

@@ -1,6 +1,6 @@
 ---
 description: "What is Liferay? description."
-icon: "hammer"
+icon: "liferay-logo"
 layout: "guide"
 title: "What is Liferay?"
 weight: 3

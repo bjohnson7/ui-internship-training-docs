@@ -1,6 +1,6 @@
 ---
 description: "Understanding the Basics description."
-icon: "hammer"
+icon: "module"
 layout: "guide"
 title: "Understanding the Basics"
 weight: 1

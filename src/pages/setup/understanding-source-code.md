@@ -1,6 +1,6 @@
 ---
 description: "Understanding Source Code description."
-icon: "hammer"
+icon: "code-file"
 layout: "guide"
 title: "Understanding Source Code"
 weight: 4

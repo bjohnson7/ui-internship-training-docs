@@ -1,6 +1,6 @@
 ---
 description: "Git For Dummies description."
-icon: "hammer"
+icon: "fork"
 layout: "guide"
 title: "Git For Dummies"
 weight: 2

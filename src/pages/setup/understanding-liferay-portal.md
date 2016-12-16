@@ -1,6 +1,6 @@
 ---
 description: "Understanding Liferay Portal description."
-icon: "hammer"
+icon: "liferay-logo-2-tiny"
 layout: "guide"
 title: "Understanding Liferay Portal"
 weight: 8

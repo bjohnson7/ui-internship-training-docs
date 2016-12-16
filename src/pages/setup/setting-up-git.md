@@ -1,6 +1,6 @@
 ---
 description: "Setting Up Git description."
-icon: "hammer"
+icon: "github"
 layout: "guide"
 title: "Setting Up Git"
 weight: 6

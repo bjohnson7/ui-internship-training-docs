@@ -1,9 +1,9 @@
 ---
 description: "Tips for Searching description."
-icon: "hammer"
+icon: "magnifier"
 layout: "guide"
-title: "Building From Source"
-weight: 10
+title: "Tips For Searching"
+weight: 8
 ---
 
 ###### Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss deixa as pessoas mais interessantiss. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.

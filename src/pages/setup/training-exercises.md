@@ -1,6 +1,6 @@
 ---
 description: "Training Exercises description."
-icon: "hammer"
+icon: "checkmark"
 layout: "guide"
 title: "Training Exercises"
 weight: 13

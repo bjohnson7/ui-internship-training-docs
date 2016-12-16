@@ -1,6 +1,6 @@
 ---
 description: "Plugins description."
-icon: "hammer"
+icon: "clip"
 layout: "guide"
 title: "Plugins"
 weight: 12

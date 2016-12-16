@@ -1,6 +1,6 @@
 ---
 description: "Debugging Tips description."
-icon: "hammer"
+icon: "eye"
 layout: "guide"
 title: "Debugging Tips"
 weight: 6

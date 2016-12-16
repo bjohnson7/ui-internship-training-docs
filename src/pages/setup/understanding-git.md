@@ -1,6 +1,6 @@
 ---
 description: "Understanding Git description."
-icon: "hammer"
+icon: "fork"
 layout: "guide"
 title: "Understanding Git"
 weight: 5

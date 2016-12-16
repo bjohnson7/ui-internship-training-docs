@@ -1,6 +1,6 @@
 ---
 description: "Learn HTML description."
-icon: "hammer"
+icon: "code-file"
 layout: "guide"
 title: "Learn HTML"
 weight: 2

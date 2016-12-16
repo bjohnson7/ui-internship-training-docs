@@ -1,6 +1,6 @@
 ---
 description: "Learn Javascript description."
-icon: "hammer"
+icon: "file-js"
 layout: "guide"
 title: "Learn Javascript"
 weight: 4

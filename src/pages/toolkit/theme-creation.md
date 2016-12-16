@@ -1,6 +1,6 @@
 ---
 description: "Theme Creation description."
-icon: "hammer"
+icon: "image"
 layout: "guide"
 title: "Theme Creation"
 weight: 4
