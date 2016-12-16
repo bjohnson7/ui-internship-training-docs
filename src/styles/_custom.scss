@@ -1,0 +1,29 @@
+
+/* Sidebar
+	 ========================================================================== */
+
+.docs .sidebar {
+	overflow-y: auto;
+	height: auto;
+	top: 60px;
+	bottom: 0;
+}
+
+.docs .sidebar-list {
+	overflow-y: visible;
+}
+
+/* Medium Screens
+	 ========================================================================== */
+$sidebar-width: 340px;
+
+@media (min-width: $screen-md-min) {
+	.docs .sidebar {
+		width: $sidebar-width;
+	}
+
+	.docs .sidebar-offset {
+		width: calc(100% - $sidebar-width);
+		margin-left: $sidebar-width + 1px;
+	}
+}
