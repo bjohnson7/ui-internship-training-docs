@@ -1,6 +1,7 @@
 ---
 description: "Setup description."
 title: "Toolkit"
+weight: 3
 ---
 
 {namespace pageToolkitIndex}
@@ -13,7 +14,7 @@ title: "Toolkit"
 		{param elementClasses: 'docs' /}
 		{param content kind="html"}
 			{call guide.sidebar}
-				{param section: $site.index.children[1] /}
+				{param section: $site.index.children[2] /}
 			{/call}
 
 			{call .topics data="all" /}

@@ -15,6 +15,14 @@
 
 /* Medium Screens
 	 ========================================================================== */
+
+.docs-home-topics .topic {
+	height: 285px;
+}
+
+/* Medium Screens
+	 ========================================================================== */
+
 $sidebar-width: 340px;
 
 @media (min-width: $screen-md-min) {
