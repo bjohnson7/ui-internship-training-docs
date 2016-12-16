@@ -12,6 +12,7 @@ weight: 2
 {template .render}
 	{call main.render data="all"}
 		{param elementClasses: 'docs' /}
+		{param offset: true /}
 		{param content kind="html"}
 			{call guide.sidebar}
 				{param section: $site.index.children[1] /}
