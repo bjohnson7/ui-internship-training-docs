@@ -1,8 +1,30 @@
 /* Topbar
 	 ========================================================================== */
 
-.topbar.sidebar-offset {
-	right: 0;
+.topbar {
+	background-color: rgba(#FFF, 0.9);
+
+	&.sidebar-offset {
+		right: 0;
+	}
+
+	@media (max-width: $screen-md-min) {
+		&.sidebar-offset {
+			padding: 12px 20px;
+		}
+	}
+}
+
+.topbar-logo-link .name {
+	color: $accent;
+}
+
+.topbar-link {
+	color: rgba($accent, 0.5);
+
+	&:hover, &:focus {
+		color: rgba($accent, 0.8);
+	}
 }
 
 /* Sidebar
@@ -13,6 +35,11 @@
 	height: auto;
 	top: 0;
 	bottom: 0;
+
+	@media (max-width: $screen-md-min) {
+		top: 60px;
+		bottom: auto;
+	}
 }
 
 .docs .sidebar-list {
@@ -40,5 +67,14 @@
 	.docs .sidebar-offset {
 		width: calc(100% - #{$sidebar-width});
 		margin-left: $sidebar-width + 1px;
+	}
+
+	.docs .sidebar-search {
+		margin: 0;
+
+		.form-control {
+			border-radius: 0;
+			border-width: 0 0 1px 0;
+		}
 	}
 }
