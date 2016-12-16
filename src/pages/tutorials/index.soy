@@ -1,9 +1,9 @@
 ---
 description: "Setup description."
-title: "Setup"
+title: "Tutorial"
 ---
 
-{namespace pageDocsIndex}
+{namespace pageTutorialIndex}
 
 /**
  * @param site
@@ -13,7 +13,7 @@ title: "Setup"
 		{param elementClasses: 'docs' /}
 		{param content kind="html"}
 			{call guide.sidebar}
-				{param section: $site.index.children[0] /}
+				{param section: $site.index.children[1] /}
 			{/call}
 
 			{call .topics data="all" /}
