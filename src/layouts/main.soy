@@ -3,11 +3,14 @@
 /**
  * @param content
  * @param? elementClasses
+ * @param? offset
  */
 {template .render}
 	<div class="{$elementClasses ?: 'main'}">
 		<main class="content">
-			{call .topbar data="all" /}
+			{call .topbar data="all"}
+				{param offset: $offset /}
+			{/call}
 
 			{$content}
 		</main>
@@ -16,9 +19,10 @@
 
 /**
  * @param site
+ * @param? offset
  */
 {template .topbar}
-	<nav class="topbar">
+	<nav class="topbar {$offset ? 'sidebar-offset' : ''}">
 		{call .logo data="all" /}
 		{call .menu data="all" /}
 	</nav>
