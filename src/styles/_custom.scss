@@ -1,3 +1,9 @@
+/* Topbar
+	 ========================================================================== */
+
+.topbar.sidebar-offset {
+	right: 0;
+}
 
 /* Sidebar
 	 ========================================================================== */
@@ -5,7 +11,7 @@
 .docs .sidebar {
 	overflow-y: auto;
 	height: auto;
-	top: 60px;
+	top: 0;
 	bottom: 0;
 }
 
@@ -23,15 +29,16 @@
 /* Medium Screens
 	 ========================================================================== */
 
-$sidebar-width: 340px;
 
 @media (min-width: $screen-md-min) {
+	$sidebar-width: 340px;
+
 	.docs .sidebar {
 		width: $sidebar-width;
 	}
 
 	.docs .sidebar-offset {
-		width: calc(100% - $sidebar-width);
+		width: calc(100% - #{$sidebar-width});
 		margin-left: $sidebar-width + 1px;
 	}
 }
