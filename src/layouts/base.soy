@@ -13,20 +13,20 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta content="minimum-scale=1.0, width=device-width" name="viewport">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="description" content="{$page.description ?: ''}">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="{$page.description ?: ''}" name="description">
 
 		<title>{$page.title} - {$site.title}</title>
 
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Mono">
-		<link rel="stylesheet" href="/styles/main.css">
-		<link rel="stylesheet" href="/fonts/galano/galano.css">
-		<link rel="stylesheet" href="/fonts/icon-12/icon-12.css">
-		<link rel="stylesheet" href="/fonts/icon-16/icon-16.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Mono" rel="stylesheet">
+		<link href="/styles/main.css" rel="stylesheet">
+		<link href="/fonts/galano/galano.css" rel="stylesheet">
+		<link href="/fonts/icon-12/icon-12.css" rel="stylesheet">
+		<link href="/fonts/icon-16/icon-16.css" rel="stylesheet">
 	</head>
 	<body>
 		<!-- inject:metal:js -->
-			<div>
+			<div class="body-container">
 				{$content}
 			</div>
 		<!-- endinject -->

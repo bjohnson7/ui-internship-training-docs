@@ -32,13 +32,13 @@
 
 		<div class="container-hybrid">
 			<div class="docs-guide row">
-				<div class="docs-content col-xs-16 col-md-9">
+				<div class="col-md-9 col-xs-16 docs-content">
 					{$content}
 
 					{call .feedback data="all" /}
 				</div>
 
-				<nav class="col-xs-16 col-md-offset-2 col-md-5">
+				<nav class="col-md-5 col-md-offset-2 col-xs-16 ">
 					<div class="docs-nav-container">
 						{call SSGReadingProgress.render}
 							{param elementClasses: 'docs-nav' /}
@@ -55,7 +55,7 @@
  * @param site
  */
 {template .feedback}
-	<div>
+	<div class="feedback-container">
 		<div class="guide-feedback">
 			<p>Was this section helpful?</p>
 
@@ -69,7 +69,7 @@
 			</div>
 
 			<div class="guide-github-text">
-				<p>Contribute to this Doc on Github! <a href="{$site.repo ?: ''}/tree/master/{$page.srcFilePath}" class="docs-github-link" target="_blank">Edit this section</a>.</p>
+				<p>Contribute to this Doc on Github! <a class="docs-github-link" href="{$site.repo ?: ''}/tree/master/{$page.srcFilePath}" target="_blank">Edit this section</a>.</p>
 			</div>
 		</div>
 	</div>
@@ -81,7 +81,7 @@
 {template .sidebar}
 	<nav class="sidebar">
 		<a class="sidebar-header toggler-header-collapsed">
-			<span class="sidebar-icon icon-16-menu"></span>
+			<span class="icon-16-menu sidebar-icon"></span>
 			<span>Docs Menu</span>
 			<span class="sidebar-icon-right">
 				<span class="icon-12-arrow-down-short"></span>
@@ -110,7 +110,7 @@
  */
 {deltemplate SSGNavigation.anchor variant="'sidebar'"}
 	<a class="sidebar-link {$page.active ? 'sidebar-link-selected' : ''}" href="{$page.url}">
-		<span class="sidebar-icon icon-16-{$page.icon}"></span>
+		<span class="icon-16-{$page.icon} sidebar-icon"></span>
 		<span>{$page.title}</span>
 	</a>
 {/deltemplate}
