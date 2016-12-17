@@ -30,20 +30,24 @@
 /* Sidebar
 	 ========================================================================== */
 
-.docs .sidebar {
-	overflow-y: auto;
-	height: auto;
-	top: 0;
+.docs {
+	.sidebar {
 	bottom: 0;
+	height: auto;
+	overflow-y: auto;
+	top: 0;
+	}
 
-	@media (max-width: $screen-md-min) {
-		top: 60px;
-		bottom: auto;
+	.sidebar-list {
+		overflow-y: visible;
 	}
 }
 
-.docs .sidebar-list {
-	overflow-y: visible;
+@media (max-width: $screen-md-min) {
+	.docs .sidebar {
+		bottom: auto;
+		top: 60px;
+	}
 }
 
 @media (min-width: $screen-md-min) {
@@ -54,8 +58,8 @@
 	}
 
 	.docs .sidebar-offset {
-		width: calc(100% - #{$sidebar-width});
 		margin-left: $sidebar-width + 1px;
+		width: calc(100% - #{$sidebar-width});
 	}
 
 	.docs .sidebar-search {
@@ -76,7 +80,6 @@
 		padding-top: 96px;
 	}
 }
-
 
 /* Topics
 	 ========================================================================== */
