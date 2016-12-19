@@ -1,0 +1,98 @@
+{namespace topics}
+
+/**
+ * @param page
+ * @param? searchContent
+ */
+{template .render}
+	{call main.render data="all"}
+		{param elementClasses: 'docs' /}
+		{param offset: true /}
+		{param content kind="html"}
+			{call docs.sidebar}
+				{param section: $page /}
+			{/call}
+
+			<div class="sidebar-offset">
+				{call .search data="all"}
+					{param content: $searchContent /}
+				{/call}
+
+				{call .topics data="all" /}
+			</div>
+		{/param}
+	{/call}
+{/template}
+
+/**
+ * @param page
+ * @param? content
+ */
+{template .search}
+	<div class="container-hybrid docs-home-top">
+		<div class="row">
+			<div class="col-xs-16">
+				<h1 class="docs-home-top-title">
+					<span>{$content? $content.title : $page.title}</span>
+				</h1>
+
+				<p class="docs-home-top-description">{$content? $content.description : $page.description}</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<form class="docs-home-top-form" action="{$page.url}/search.html" method="GET" enctype="multipart/form-data">
+				<div class="col-md-7 col-md-offset-3 col-xs-16">
+					<div class="form-group">
+						<div class="input-inner-addon input-inner-addon-right">
+							<input name="q" class="form-control" type="text" placeholder="Enter a search term here" autocomplete="off" required>
+							<span class="input-inner-icon-helper icon-16-magnifier"></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-xs-16">
+					<button class="btn btn-accent btn-block" type="submit">Search</button>
+				</div>
+			</form>
+		</div>
+	</div>
+{/template}
+
+
+/**
+ * @param page
+ */
+{template .topics}
+
+		<div class="docs-home-topics">
+			<div class="container-hybrid">
+				<div class="row">
+					<div class="col-xs-16">
+						<section class="docs-home-middle">
+							<h2 class="docs-home-middle-subtitle">Choose a docs</h2>
+							<p class="docs-home-middle-description">Each one provide step by step coverage for every core feature.</p>
+						</section>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-13 col-md-offset-3 col-xs-16">
+						<div class="row">
+							{foreach $topic in $page.children}
+								{if not $topic.hidden}
+									<div class="col-md-6 col-xs-16">
+										<a class="topic radial-out" href="{$topic.url}">
+											<div class="topic-icon">
+												<span class="icon-16-{$topic.icon}"></span>
+											</div>
+											<h3 class="topic-title">{$topic.title}</h3>
+										</a>
+									</div>
+								{/if}
+							{/foreach}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+{/template}
