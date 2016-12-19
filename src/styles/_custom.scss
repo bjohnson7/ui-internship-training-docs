@@ -3,6 +3,7 @@
 
 .topbar {
 	background-color: rgba(#FFF, 0.9);
+	z-index: 1000;
 
 	&.sidebar-offset {
 		right: 0;
