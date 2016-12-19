@@ -11,7 +11,7 @@
 		{param offset: true /}
 		{param content kind="html"}
 			{call .sidebar}
-				{param section: $section ?: $site.index.children[0] /}
+				{param section: $section /}
 			{/call}
 
 			{call .guide data="all" /}

@@ -11,8 +11,6 @@ title: "Toolkit Search"
  */
 {template .render}
 	{call toolkit.render data="all"}
-		{param elementClasses: 'docs' /}
-		{param section: $site.index.children[2] /}
 		{param content kind="html"}
 			<div class="container-hybrid docs-home-top">
 				{call SSGSearch.render}
