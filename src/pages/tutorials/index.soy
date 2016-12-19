@@ -4,7 +4,7 @@ title: "Tutorials"
 weight: 2
 searchContent: {
 	title: 'Custom tutorials, made just for you',
-	description: ''
+	description: 'See how great this is?'
 }
 ---
 
@@ -18,5 +18,6 @@ searchContent: {
 
 	{call topics.render data="all"}
 		{param page: $page /}
+		{param searchContent: $page.searchContent /}
 	{/call}
 {/template}
