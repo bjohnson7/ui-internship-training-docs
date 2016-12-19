@@ -6,46 +6,24 @@ title: "What is Liferay?"
 weight: 3
 ---
 
-###### Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss deixa as pessoas mais interessantiss. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.
+###### There are two editions of Liferay – the Community Edition (CE) and the Enterprise Edition (EE).
 
-<article id="article1">
+<article id="article-1">
 
-## Fancy pants title
+## Liferay CE
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+Liferay CE is free for anyone to download and use, and it usually has some of the newest features as they are completed.
 
 </article>
 
-<article id="article2">
+<article id="article-2">
 
-## Lorem ipsum dolor sit amet
+## Liferay EE
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+Liferay EE, on the other hand, requires a subscription fee. With this fee, customers are given a license key and are given access to our support team.  The customers are also able to choose from varying levels or support based on their needs.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+Unlike CE, EE does not necessarily have all the newest cutting edge features, but instead, it offers a greater level of stability.  The customer will get fix packs based on their needs and new updates/releases which are certified and tested by our QA team. EE is designed to be more stable because the target audience for EE is often (large) companies who are looking for the reliability, security, and performance of an enterprise environment.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-</article>
-
-<article id="article3">
-
-## Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+More information on Liferay EE can be found at <https://www.liferay.com/subscription-services>.
 
 </article>
