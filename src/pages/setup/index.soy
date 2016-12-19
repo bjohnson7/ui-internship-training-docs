@@ -14,7 +14,7 @@ weight: 1
 		{param elementClasses: 'docs' /}
 		{param offset: true /}
 		{param content kind="html"}
-			{call guide.sidebar}
+			{call docs.sidebar}
 				{param section: $site.index.children[0] /}
 			{/call}
 
@@ -38,7 +38,7 @@ weight: 1
 				</div>
 			</div>
 			<div class="row">
-				<form class="docs-home-top-form" action="/docs/search.html" method="GET" enctype="multipart/form-data">
+				<form class="docs-home-top-form" action="/setup/search.html" method="GET" enctype="multipart/form-data">
 					<div class="col-md-7 col-md-offset-3 col-xs-16">
 						<div class="form-group">
 							<div class="input-inner-addon input-inner-addon-right">
@@ -58,7 +58,7 @@ weight: 1
 				<div class="row">
 					<div class="col-xs-16">
 						<section class="docs-home-middle">
-							<h2 class="docs-home-middle-subtitle">Choose a Guide</h2>
+							<h2 class="docs-home-middle-subtitle">Choose a docs</h2>
 							<p class="docs-home-middle-description">Each one provide step by step coverage for every core feature.</p>
 						</section>
 					</div>

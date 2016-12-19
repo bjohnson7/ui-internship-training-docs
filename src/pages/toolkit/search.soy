@@ -1,24 +1,24 @@
 ---
-description: "Setup search description."
+description: "Toolkit search description."
 hidden: true
-title: "Setup Search"
+title: "Toolkit Search"
 ---
 
-{namespace pageDocsSearch}
+{namespace pageToolkitSearch}
 
 /**
  * @param site
  */
 {template .render}
-	{call setup.render data="all"}
+	{call toolkit.render data="all"}
 		{param elementClasses: 'docs' /}
-		{param section: $site.index.children[0] /}
+		{param section: $site.index.children[2] /}
 		{param content kind="html"}
 			<div class="container-hybrid docs-home-top">
 				{call SSGSearch.render}
-					{param action: '/setup/search.html' /}
+					{param action: '/toolkit/search.html' /}
 					{param placeholder: 'Search Setup' /}
-					{param section: $site.index.children[0] /}
+					{param section: $site.index.children[2] /}
 				{/call}
 			</div>
 		{/param}
