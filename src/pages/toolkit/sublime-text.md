@@ -1,7 +1,7 @@
 ---
 description: "Sublime Text description."
 icon: "code-file"
-layout: "guide"
+layout: "toolkit"
 title: "Sublime Text"
 weight: 3
 ---

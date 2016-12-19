@@ -1,0 +1,11 @@
+{namespace toolkit}
+
+/**
+ * @param page
+ * @param site
+ */
+{template .render}
+	{call docs.render data="all"}
+		{param section: $site.index.children[2] /}
+	{/call}
+{/template}

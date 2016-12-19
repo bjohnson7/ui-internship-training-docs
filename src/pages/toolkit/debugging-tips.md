@@ -1,7 +1,7 @@
 ---
 description: "Debugging Tips description."
 icon: "eye"
-layout: "guide"
+layout: "toolkit"
 title: "Debugging Tips"
 weight: 6
 ---

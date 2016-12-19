@@ -1,7 +1,7 @@
 ---
 description: "Getting Liferay's Source code description."
 icon: "download"
-layout: "guide"
+layout: "setup"
 title: "Getting Liferay's Source code"
 weight: 7
 ---

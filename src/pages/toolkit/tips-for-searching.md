@@ -1,7 +1,7 @@
 ---
 description: "Tips for Searching description."
 icon: "magnifier"
-layout: "guide"
+layout: "toolkit"
 title: "Tips For Searching"
 weight: 8
 ---

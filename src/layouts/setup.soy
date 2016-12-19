@@ -1,0 +1,11 @@
+{namespace setup}
+
+/**
+ * @param page
+ * @param site
+ */
+{template .render}
+	{call docs.render data="all"}
+		{param section: $site.index.children[0] /}
+	{/call}
+{/template}

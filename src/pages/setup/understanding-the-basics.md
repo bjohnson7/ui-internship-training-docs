@@ -1,7 +1,7 @@
 ---
 description: "Understanding the Basics description."
 icon: "module"
-layout: "guide"
+layout: "setup"
 title: "Understanding the Basics"
 weight: 1
 ---

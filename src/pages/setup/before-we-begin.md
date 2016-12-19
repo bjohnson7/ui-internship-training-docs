@@ -1,7 +1,7 @@
 ---
 description: "Before We Begin description."
 icon: "menu-content"
-layout: "guide"
+layout: "setup"
 title: "Before We Begin"
 weight: 2
 ---

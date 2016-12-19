@@ -1,7 +1,7 @@
 ---
 description: "Theme Creation description."
 icon: "image"
-layout: "guide"
+layout: "toolkit"
 title: "Theme Creation"
 weight: 4
 ---

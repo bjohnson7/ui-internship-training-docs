@@ -1,7 +1,7 @@
 ---
 description: "Learn CSS description."
 icon: "eye"
-layout: "guide"
+layout: "tutorials"
 title: "Learn CSS"
 weight: 3
 ---

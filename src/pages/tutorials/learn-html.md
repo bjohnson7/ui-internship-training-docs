@@ -1,7 +1,7 @@
 ---
 description: "Learn HTML description."
 icon: "code-file"
-layout: "guide"
+layout: "tutorials"
 title: "Learn HTML"
 weight: 2
 ---

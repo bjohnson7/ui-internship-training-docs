@@ -1,7 +1,7 @@
 ---
 description: "Training Exercises description."
 icon: "checkmark"
-layout: "guide"
+layout: "setup"
 title: "Training Exercises"
 weight: 13
 ---

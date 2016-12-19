@@ -1,7 +1,7 @@
 ---
 description: "The Console description."
 icon: "command-line"
-layout: "guide"
+layout: "setup"
 title: "The Console"
 weight: 11
 ---

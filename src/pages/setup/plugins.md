@@ -1,7 +1,7 @@
 ---
 description: "Plugins description."
 icon: "clip"
-layout: "guide"
+layout: "setup"
 title: "Plugins"
 weight: 12
 ---

@@ -1,7 +1,7 @@
 ---
 description: "What is Liferay? description."
 icon: "liferay-logo"
-layout: "guide"
+layout: "setup"
 title: "What is Liferay?"
 weight: 3
 ---

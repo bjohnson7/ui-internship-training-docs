@@ -1,7 +1,7 @@
 ---
 description: "Miscellaneous Tips description."
 icon: "pen"
-layout: "guide"
+layout: "toolkit"
 title: "Miscellaneous Tips"
 weight: 9
 ---

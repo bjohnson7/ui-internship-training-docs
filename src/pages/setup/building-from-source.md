@@ -1,7 +1,7 @@
 ---
 description: "Building From Source description."
 icon: "hammer"
-layout: "guide"
+layout: "setup"
 title: "Building From Source"
 weight: 10
 ---

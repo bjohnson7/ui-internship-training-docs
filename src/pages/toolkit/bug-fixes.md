@@ -1,7 +1,7 @@
 ---
 description: "Bug Fixes description."
 icon: "menu-content"
-layout: "guide"
+layout: "toolkit"
 title: "Bug Fixes"
 weight: 8
 ---

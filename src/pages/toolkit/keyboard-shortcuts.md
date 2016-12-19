@@ -1,7 +1,7 @@
 ---
 description: "Keyboard Shortcuts description."
 icon: "speedometer"
-layout: "guide"
+layout: "toolkit"
 title: "Keyboard Shortcuts"
 weight: 1
 ---

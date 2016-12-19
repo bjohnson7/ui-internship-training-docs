@@ -1,7 +1,7 @@
 ---
 description: "Learn Git description."
 icon: "fork"
-layout: "guide"
+layout: "tutorials"
 title: "Learn Git"
 weight: 1
 ---

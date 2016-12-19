@@ -1,8 +1,9 @@
-{namespace guide}
+{namespace docs}
 
 /**
  * @param page
  * @param site
+ * @param? section
  */
 {template .render}
 	{call main.render data="all"}
@@ -10,7 +11,7 @@
 		{param offset: true /}
 		{param content kind="html"}
 			{call .sidebar}
-				{param section: $site.index.children[0] /}
+				{param section: $section ?: $site.index.children[0] /}
 			{/call}
 
 			{call .guide data="all" /}
@@ -92,7 +93,7 @@
 		<div class="sidebar-search toggler-collapsed">
 			{call SSGSearchAutocomplete.render}
 				{param section: $section /}
-				{param placeholder: 'Search Docs' /}
+				{param placeholder: 'Search ' + $section.title /}
 			{/call}
 		</div>
 

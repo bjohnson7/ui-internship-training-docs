@@ -1,7 +1,7 @@
 ---
 description: "Understanding Liferay Portal description."
 icon: "liferay-logo-2-tiny"
-layout: "guide"
+layout: "setup"
 title: "Understanding Liferay Portal"
 weight: 8
 ---

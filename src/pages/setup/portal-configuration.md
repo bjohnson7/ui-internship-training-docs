@@ -1,7 +1,7 @@
 ---
 description: "Portal Configuration description."
 icon: "gear"
-layout: "guide"
+layout: "setup"
 title: "Portal Configuration"
 weight: 9
 ---
