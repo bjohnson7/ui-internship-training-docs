@@ -120,10 +120,13 @@ upstream    https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 
 Now, you can keep your fork synced with the upstream repository with a few Git commands. For more information, see [Syncing a fork](NO URL YET).
 
+[//]: # (TODO -- Add syncing a fork PAGE as an internal page)
 
 </article>
 
-<article id="forkingPossibilities">
+<article id="nextSteps">
+
+## Next Steps
 
 The sky is the limit with the changes you can make to a fork, including:
 
