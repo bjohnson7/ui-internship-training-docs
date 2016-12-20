@@ -6,46 +6,48 @@ title: "Training Exercises"
 weight: 13
 ---
 
-###### Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss deixa as pessoas mais interessantiss. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.
+###### Congratulations! You have successfully setup Liferay on your machine.  We will go through some training exercises to make sure you can navigate your way around Liferay.
 
-<article id="article1">
+<article id="whatYouShouldKnow">
 
-## Fancy pants title
+## What You Should Know By Now
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+**Before you start the exercises, you must be able to answer these questions:**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-</article>
-
-<article id="article2">
-
-## Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+1. What is the Command Line/Terminal?
+2. What is the difference between compiled code and uncompiled code?
+3. What is the difference between trunk and the branches?
+4. Where do I find the source code?
+5. Where is my **local** git repository? **origin** git repository? **upstream** git repository?
+6. Where can I find my **.gitconfig** file?  How do I update it?
+7. What are git remotes?  Where are they pointed to?
+8. What is needed to run Liferay?
+9. What is an application server?
+10. What is a database?
+11. What do your **[computerName]**.properties files do?
+12. What does the _portal-ext.properties_ file do?
+13. Where do you run the command `**ant all**`?
+14. How do you start your Tomcat?
+15. How can you tell if your Liferay is running?
+16. Where do you see if there are errors being thrown by Liferay?
 
 </article>
 
-<article id="article3">
+<article id="exercises">
 
-## Lorem ipsum dolor sit amet
+## Exercises
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+#### Deploying and undeploying a plugin
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+1. Deploy a portlet in the plugins repository.
+2. Add it to the Liferay portal.
+3. Deploy 2 more plugins and add them to Liferay.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+#### Deploying and undeploying a theme
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+1. Deploy a theme in the plugins repository.
+2. You may have to deploy additional dependencies to get this theme to work.
+3. Change your theme to this new theme you just deployed.
+4. Deploy 2 more themes to Liferay.
 
 </article>
