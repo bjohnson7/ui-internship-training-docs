@@ -12,7 +12,6 @@ weight: 2
 <article id="downloads">
 
 ## Things We Need to Download
-[//]: # (I have not been able to get Digsby to work AT ALL...do we still include? -Ben)
 
 * IM Client
 	- [Adium](http://adium.im/) (Mac)
@@ -29,7 +28,7 @@ weight: 2
 	2. Portal 6.2.x: [Java JDK 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html#jdk-7u79-oth-JPR)
 	3. Portal 6.1.x: [Java JDK 6](http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase6-419409.html#jdk-6u45-oth-JPR)
 
-### Things We Need on Windows
+#### Things We Need on Windows
 
 [//]: # (EDITS -- need to add in the 'Instructions on Setting up Apache Ant' since it will be on this site rather than in.liferay.com. For now it links to the home page  -Ben)
 
@@ -41,7 +40,7 @@ weight: 2
 	- After installing, you will need to change some settings. Go to Tools -> Preferences -> Files. Uncheck the option to create a backup file  when saving. Also, go to Files -> Settings & syntax and check the option to trim trailing spaces on save.
 	- The editplus.txt file contains the reg key.
 * [Apache Ant](http://ant.apache.org/)
-	- [Instructions on setting up Apache Ant](/)\
+	- [Instructions on setting up Apache Ant](/)
 
 </article>
 

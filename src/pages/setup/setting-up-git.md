@@ -20,7 +20,7 @@ weight: 6
 
 </article>
 
-<article id="SetupGit">
+<article id="setupGit">
 
 ## Setting up Git
 

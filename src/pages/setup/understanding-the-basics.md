@@ -14,11 +14,11 @@ weight: 1
 
 To launch the command line / terminal
 
-### Linux / Mac
+#### Linux / Mac
 
 - Launch *Terminal*
 
-### Windows
+#### Windows
 
 - Press _windows key_ + _r_ to open the Run window
 - Type in _cmd_ and hit enter (or click OK)
@@ -30,7 +30,7 @@ To launch the command line / terminal
 
 ## Commands
 
-### Linux / Mac Terminal
+#### Linux / Mac Terminal
 
 |     Command      |                                                                                                 Action                                                                                                |                                         Example                                         |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ To launch the command line / terminal
 | `kill -9 [pid]`  | Kill the specified process id (basically force quit for the command line)                                                                                                                             |                                                                                         |
 | `ARROW UP/DOWN`  | Scroll through previously used commands                                                                                                                                                               |                                                                                         |
 
-### Windows Command Prompt
+#### Windows Command Prompt
 
 |     Command      |                                                                                                 Action                                                                                                |                                                 Example                                                  |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
@@ -62,7 +62,7 @@ To launch the command line / terminal
 | `cls`            | Clears the console screen                                                                                                                                                                             |                                                                                                          |
 | `ARROW UP/DOWN`  | Scrolls through previously used commands                                                                                                                                                              |                                                                                                          |
 
-### Windows 10 Key shortcuts
+#### Windows 10 Key shortcuts
 
 |    Keystrokes    |                                   Action                                  |
 |------------------|---------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ To launch the command line / terminal
 | WIN + SHIFT + Up | Maximizes the window vertically                                           |
 | WIN              | Opens directly to the search bar for programs and files in the Start menu |
 
-### Web Browsers
+#### Web Browsers
 
 | Keystrokes |                 Action                |  Alternatives |
 |------------|---------------------------------------|---------------|
@@ -87,7 +87,7 @@ To launch the command line / terminal
 | CTRL + 0   | Return to default zoom state          |               |
 
 
-### General Navigation
+#### General Navigation
 
 |          Keystrokes          |                 Action                |   Alternatives   |
 |------------------------------|---------------------------------------|------------------|
@@ -102,7 +102,7 @@ To launch the command line / terminal
 | CTRL + ALT + DEL             | System menu                           |                  |
 | CTRL + SHIFT + ESC           | Task manager                          |                  |
 
-### Text Editing
+#### Text Editing
 
 |           Keystrokes           |                           Action                          |
 |--------------------------------|-----------------------------------------------------------|

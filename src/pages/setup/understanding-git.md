@@ -31,7 +31,7 @@ The Git repository is stored in the same directory as the project itself, in a s
 
 * There is only **ONE**//.git// directory, in the root directory of the project. The repository is stored in files alongside the project. There is no central server repository.
 
-### What is a Commit Object?
+#### What is a Commit Object?
 
 A commit object contains three things:
 
@@ -39,7 +39,7 @@ A commit object contains three things:
 * References to **parent commit objects**
 * A **SHA1 name**, a 40-character string that uniquely identifies the commit object. The name is composed of a hash of relevant aspects of the commit, so identical commits will always have the same name.
 
-### What is a Branch?
+#### What is a Branch?
 
 A **branch **or **head** is simply a reference to a commit object. Each branch has a name. By default, there is a branch in every repository called **master**. A repository can contain any number of branches. At any given time, the current commit that is selected is known as the "//current branch//." This branch is aliased to **HEAD** (Always in capitals). Creating branches in Git allow you to make changes in parallel rather than in series, allowing you to merge your changes in at a later time.
 
@@ -53,7 +53,7 @@ Liferay takes advantage of Git's branch structure to store multiple versions of 
 
 ## Git's Workflow Model
 
-##### With Git, you have to understand  3 repos:
+#### With Git, you have to understand  3 repos:
 
 1. **local** (your source code on your computer)
 	- The copy of the source code stored locally on your computer. This is where you will be making your changes and updates to the source code before sending them to others to review. When you have made a commit (or set of changes to the source code) that you want to submit for review, you will push it from your **local** to your **origin** (See example picture below).
@@ -67,7 +67,7 @@ Liferay takes advantage of Git's branch structure to store multiple versions of 
 
 ![illustration of different repos](http://in.liferay.com/documents/114255/c81dda85-cd7e-41b5-bd49-a9a9de154923)
 
-##### Then the git workflow looks something like this:
+#### Then the git workflow looks something like this:
 
 1. Brian **pushes** all content to the **upstream/master** branch to GitHub.com.
 	* Repository:
