@@ -6,46 +6,81 @@ title: "Setting Up Git"
 weight: 6
 ---
 
-###### Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss deixa as pessoas mais interessantiss. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.
+###### In this section, you will learn how to setup your GitHub.com account to begin downloading your source code from the Liferay repositories.
 
 <article id="article1">
 
-## Fancy pants title
+## Create a Github Account
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+1. Create an account on **[github.com](https://github.com)** using your **FIRSTNAME.LASTNAME@LIFERAY.COM** email as your email address.  Do not use the word **liferay** in your username.
+2. Add your **Full Name** to your Github public profile.
+3. Add a picture using gravatar (be sure to use your **FIRSTNAME.LASTNAME@LIFERAY.COM** email address).
+4. Email **IT-support@liferay.com** with your **GITHUB_USERNAME** if you need access to the private repositories.
+5 Follow [[Brian Chan](https://github.com/brianchandotcom) (brianchandotcom) on Github.com. 
 
 </article>
 
 <article id="article2">
 
-## Lorem ipsum dolor sit amet
+## Setting up Git
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+1. Download and install the latest version of Git at <http://git-scm.com/downloads>.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+	If you are on Windows, and plan to use Git on other terminals besides Git Bash, you'll want to select "Run Git from the Windows Command Prompt" when you get to the screen that says "Adjusting your PATH environment".
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+	Examples of programs/utilities that use Git include:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+	- Alloy UI
+	- Git based Sublime Text 2 plugins
+	- IntelliJ
+	- Eclipse
+	- and many more...
+	![installing git](/images/install-git.jpg)
+
+	Git Bash and Command Prompt have essentially the same functionality except Git Bash is Linux based and was designed to be used with Git. It is up to you to use whichever terminal you prefer; some use the command prompt and some use Git Bash.
+
+	If you are on Windows, it is recommended that you select "Checkout as-is, commit Unix-style endings." Windows adds an extra character to the end of each line in text files, and Liferay will only accept files with Unix-style line endings. Sublime Text should be able to read files with Unix-style endings if you are on a Windows computer.
+
+	![configure line endings](/images/change-line-endings.png)
+
+2. Relaunch the Terminal by running the following command in your Terminal/Git Bash:
+
+	```
+	$ source ~/.bash_profile
+	```
+
+3. Add your full name to your **.gitconfig** file by running the following command in your Terminal/Git Bash: (Replace the **FULL NAME** placeholder token with your full name).
+
+	```
+	$ git config --global user.name "FULL NAME"
+	```
+
+4. Add your Liferay email address (**@liferay.com**) to your **.gitconfig** file by running the following command in your Terminal/Git Bash: (Replace the **FIRSTNAME.LASTNAME** placeholder token with your actual email).
+
+	```
+	$ git config --global user.email "FIRSTNAME.LASTNAME@liferay.com"
+	```
+
+5. If you are on Windows, you will need to add a setting to your **.gitconfig** file by running the following command in your Terminal/Git Bash:
+
+	```
+	$ git config --global core.longpaths true
+	```
 
 </article>
 
 <article id="article3">
 
-## Lorem ipsum dolor sit amet
+## Authenticating with GitHub
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+When you connect to a GitHub repository from Git, you will need to authenticate with GitHub using either HTTPS or SSH.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+#### Connecting over HTTPS (recommended)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+If you [clone with HTTPS](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended), you can [cache your GitHub password in Git](https://help.github.com/articles/caching-your-github-password-in-git/) using a credential helper.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+#### Connecting over SSH
+
+If you [clone with SSH](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls), you must [generate SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) on each computer you use to push or pull from GitHub.
 
 </article>
