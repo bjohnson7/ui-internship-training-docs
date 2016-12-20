@@ -6,46 +6,32 @@ title: "The Console"
 weight: 11
 ---
 
-###### Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss deixa as pessoas mais interessantiss. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.
+###### In this section, you will learn a bit about how to make sense of the Terminal messages.
 
-<article id="article1">
+<article id="readingTheCommandLine">
 
-## Fancy pants title
+## Reading the Command Line
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+![Liferay Portal Startup](/images/LRP-startup-01.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+1. Notice that the run command is executed at the _bin_ folder level. It will not work anywhere else.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+2. When you see this line, you know that Liferay is reading your _portal-ext.properties_ file.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+3. As Liferay is reading your _portal-ext.properties_, the system will also usually show what database it is using. You can use these lines to double check that Liferay is hooking onto the right database.
 
-</article>
+4. Every build will have this line. It tells you what edition, what version, and the date that it was built. When testing, you should make sure that this says the correct information.
 
-<article id="article2">
+![Liferay Portal Startup 2](/images/LRP-startup-02.jpg)
 
-## Lorem ipsum dolor sit amet
+5. The deploy folder is created recreated at startup. The second line tells you that the scanner for the deploy folder has started. This means that Liferay will automatically scan the deploy folder for files to implement. You will notice that when you drop a file into this folder, within a few seconds Liferay will automatically scan the folder for files and deploy them.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+6. This is the message notifying you that your application server has finished starting up and Liferay is up and running. Access your Liferay instance by using a browser to go to <http://localhost:8080>.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+![Liferay Portal Shutdown](/images/LRP-shutdown.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+7. This is what an exception looks like. It begins with the "**ERROR**" warning and is indented. If you get exceptions, it means something went wrong.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-</article>
-
-<article id="article3">
-
-## Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+8. To shutdown the servers, type **CTRL + C**. You will see messages about things that are pausing and stopping and then at the very end it will ask you if you want to terminate the job. Enter **Y**. Normally, you want no exceptions at startup and shut down (this is something you should look for).
 
 </article>
