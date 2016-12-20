@@ -16,12 +16,12 @@ To launch the command line / terminal
 
 #### Linux / Mac
 
-- Launch *Terminal*
+- Launch _Terminal_
 
 #### Windows
 
-- Press _windows key_ + _r_ to open the Run window
-- Type in _cmd_ and hit enter (or click OK)
+- Press `Windows Key + R` to open the Run window
+- Type in `CMD` and hit enter (or click OK)
 
 </article>
 
@@ -37,8 +37,8 @@ To launch the command line / terminal
 | `ls`             | List all contents of a directory including hidden files                                                                                                                                               | `$ ls` => lists all folders in the current directory                                    |
 | `cd [directory]` | Move to the specified directory                                                                                                                                                                       | `$ cd /Applications` => moves the console to /Applications                              |
 | `cd`             | Changes the home directory                                                                                                                                                                            | `$ cd` => moves the console to home directory                                           |
-| `cd ..`          | Moves one level up                                                                                                                                                                                    | `$ /Applications/TextEdit > cd ..` => $ `/Applications`                                 |
-| `cd ../..`       | Moves multiple levels up, where each `..` indicates 1 level                                                                                                                                           | `$ /Applications/TextEdit > cd ../..` => $ `/`                                          |
+| `cd ..`          | Moves one level up                                                                                                                                                                                    | `$ /Applications/TextEdit > cd ..` => `$ /Applications`                                 |
+| `cd ../..`       | Moves multiple levels up, where each `..` indicates 1 level                                                                                                                                           | `$ /Applications/TextEdit > cd ../..` => `$ /`                                          |
 | `cd /`           | Moves you to the root level of the drive                                                                                                                                                              | `$ /Applications/TextEdit/directory/ > cd` / => moves you directly to `/`               |
 | `cd win(TAB)`    | Moves one level down, where `win` is the first three letters of the directory. Use TAB to scroll through all directories that begin with the same three letters. Hold `SHIFT + TAB` to reverse scroll | `$ /Applications > cd win(TAB)` => scrolls through all directories beginning with "win" |
 | `ps -aux`        | List all processes running from all users. `-ux` will only list processes from the current user                                                                                                       | `$ ps -aux` => shows all running tasks                                                  |
@@ -49,7 +49,7 @@ To launch the command line / terminal
 
 |     Command      |                                                                                                 Action                                                                                                |                                                 Example                                                  |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| `~`              | Stands for your current user directory on your computer (i.e. a user profile -- most likely named *liferay* -- on your Windows machine)                                                               | `~\Desktop`                                                                                              |
+| `~`              | Stands for your current user directory on your computer (i.e. a user profile -- most likely named `liferay` -- on your Windows machine)                                                               | `~\Desktop`                                                                                              |
 | `dir`            | Stands for Directory. Use it at anytime to see a list of all folders in the level you're at                                                                                                           | `C:\> dir` => lists all folders in the `C:` directory                                                    |
 | `d:`             | Type in another drive to go there                                                                                                                                                                     | `C:\> d:` => moves the console to `D:`                                                                   |
 | `cd [directory]` | Move into the specified directory                                                                                                                                                                     | `C:\> cd Program Files` => moves the console to `C:\Program Files`                                       |
@@ -62,64 +62,64 @@ To launch the command line / terminal
 | `cls`            | Clears the console screen                                                                                                                                                                             |                                                                                                          |
 | `ARROW UP/DOWN`  | Scrolls through previously used commands                                                                                                                                                              |                                                                                                          |
 
-#### Windows 10 Key shortcuts
+#### Windows 10 Key Shortcuts
 
-|    Keystrokes    |                                   Action                                  |
-|------------------|---------------------------------------------------------------------------|
-| WIN + E          | Opens File Explorer and gives you quick access to your drives             |
-| WIN + R          | Opens the Run window. Type in `cmd` and it takes you to the command line  |
-| WIN + D          | Shows desktop / restore windows                                           |
-| WIN + Left/Right | Docks the current window to the left (or right)                           |
-| WIN + Up/Down    | Maximizes / Minimizes the window                                          |
-| WIN + SHIFT + Up | Maximizes the window vertically                                           |
-| WIN              | Opens directly to the search bar for programs and files in the Start menu |
+|    Keystrokes    |                                   Action                                    |
+|------------------|-----------------------------------------------------------------------------|
+| `WIN + E`          | Opens File Explorer and gives you quick access to your drives             |
+| `WIN + R`          | Opens the Run window. Type in `cmd` and it takes you to the command line  |
+| `WIN + D`          | Shows desktop / restore windows                                           |
+| `WIN + Left/Right` | Docks the current window to the left (or right)                           |
+| `WIN + Up/Down`    | Maximizes / Minimizes the window                                          |
+| `WIN + SHIFT + Up` | Maximizes the window vertically                                           |
+| `WIN`              | Opens directly to the search bar for programs and files in the Start menu |
 
 #### Web Browsers
 
-| Keystrokes |                 Action                |  Alternatives |
-|------------|---------------------------------------|---------------|
-| CTRL + W   | Closes browser tabs and windows       |               |
-| CTRL + T   | Opens a new browser tab               |               |
-| CTRL + R   | Refreshes the (browser/system) window | F5            |
-| CTRL + TAB | Switch between browser tabs           |               |
-| ALT + D    | Address bar                           | CTRL + L      |
-| CTRL + +/- | Zoom in/out                           | CTRL + Scroll |
-| CTRL + 0   | Return to default zoom state          |               |
+|  Keystrokes  |                 Action                |  Alternatives   |
+|------------  |---------------------------------------|---------------  |
+| `CTRL + W`   | Closes browser tabs and windows       |                 |
+| `CTRL + T`   | Opens a new browser tab               |                 |
+| `CTRL + R`   | Refreshes the (browser/system) window | `F5`            |
+| `CTRL + TAB` | Switch between browser tabs           |                 |
+| `ALT + D`    | Address bar                           | `CTRL + L`      |
+| `CTRL + +/-` | Zoom in/out                           | `CTRL + Scroll` |
+| `CTRL + 0`   | Return to default zoom state          |                 |
 
 
 #### General Navigation
 
-|          Keystrokes          |                 Action                |   Alternatives   |
-|------------------------------|---------------------------------------|------------------|
-| CTRL + W                     | Closes browser tabs and windows       |                  |
-| CTRL + R                     | Refreshes the (browser/system) window | F5               |
-| ALT + TAB                    | Switch between windows                |                  |
-| SHIFT + ALT + TAB            | Reverse switch between windows        |                  |
-| SHIFT + right click a folder | Extended folder/file menu             | SHIFT + menu key |
-| CTRL + SHIFT + N             | Create a new folder                   |                  |
-| F2                           | Rename folder                         |                  |
-| ALT + D                      | Address bar                           | CTRL + L         |
-| CTRL + ALT + DEL             | System menu                           |                  |
-| CTRL + SHIFT + ESC           | Task manager                          |                  |
+|          Keystrokes            |                 Action                |    Alternatives    |
+|--------------------------------|---------------------------------------|--------------------|
+| `CTRL + W`                     | Closes browser tabs and windows       |                    |
+| `CTRL + R`                     | Refreshes the (browser/system) window | `F5`               |
+| `ALT + TAB`                    | Switch between windows                |                    |
+| `SHIFT + ALT + TAB`            | Reverse switch between windows        |                    |
+| `SHIFT + right click a folder` | Extended folder/file menu             | `SHIFT + menu key` |
+| `CTRL + SHIFT + N`             | Create a new folder                   |                    |
+| `F2`                           | Rename folder                         |                    |
+| `ALT + D`                      | Address bar                           | `CTRL + L`         |
+| `CTRL + ALT + DEL`             | System menu                           |                    |
+| `CTRL + SHIFT + ESC`           | Task manager                          |                    |
 
 #### Text Editing
 
-|           Keystrokes           |                           Action                          |
-|--------------------------------|-----------------------------------------------------------|
-| CTRL + C                       | Copy                                                      |
-| CTRL + X                       | Cut                                                       |
-| CTRL + V                       | Paste                                                     |
-| CTRL + Y                       | Redo                                                      |
-| SHIFT + up/down                | Selects up to the line above or below where the cursor is |
-| SHIFT + home/end               | Selects on the same line from where the cursor is         |
-| CTRL + right/left              | Jumps whole words                                         |
-| CTRL + SHIFT + right/left      | Selects whole words                                       |
-| CTRL + backspace               | Deletes backward by word                                  |
-| CTRL + del                     | Deletes forward by word                                   |
-| CTRL + A                       | Select all                                                |
-| CTRL + Z                       | Undo/revert                                               |
-| TAB / CTRL + ]                 | Increase indent on current line/selected lines            |
-| SHIFT + TAB / CTRL + SHIFT + [ | Decrease indent on current line/selected lines            |
+|             Keystrokes             |                           Action                          |
+|------------------------------------|-----------------------------------------------------------|
+| `CTRL + C`                         | Copy                                                      |
+| `CTRL + X`                         | Cut                                                       |
+| `CTRL + V`                         | Paste                                                     |
+| `CTRL + Y`                         | Redo                                                      |
+| `SHIFT + up/down`                  | Selects up to the line above or below where the cursor is |
+| `SHIFT + home/end`                 | Selects on the same line from where the cursor is         |
+| `CTRL + right/left`                | Jumps whole words                                         |
+| `CTRL + SHIFT + right/left`        | Selects whole words                                       |
+| `CTRL + backspace`                 | Deletes backward by word                                  |
+| `CTRL + del`                       | Deletes forward by word                                   |
+| `CTRL + A`                         | Select all                                                |
+| `CTRL + Z`                         | Undo/revert                                               |
+| `TAB` / `CTRL + ]`                 | Increase indent on current line/selected lines            |
+| `SHIFT + TAB` / `CTRL + SHIFT + [` | Decrease indent on current line/selected lines            |
 
 </article>
 
