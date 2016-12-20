@@ -8,7 +8,7 @@ weight: 7
 
 ###### In this section, you will learn how to get the Liferay Source Code from your GitHub.com account.
 
-<article id="article1">
+<article id="forkingARepository">
 
 ## Forking a Repository
 
@@ -18,7 +18,7 @@ Most commonly, forks are used to either propose changes to someone else's projec
 
 </article>
 
-<article id="article2">
+<article id="proposeChanges">
 
 ## Propose changes to Liferay
 
@@ -30,7 +30,7 @@ A great example of using forks to propose changes is for bug fixes. To submit fi
 
 </article>
 
-<article id="article3">
+<article id="forkLiferay">
 
 ## Fork Liferay Portal's repository
 
@@ -43,7 +43,7 @@ That is it! Now, you have a fork of the original *liferay/liferay-portal* reposi
 
 </article>
 
-<article id="article4">
+<article id="keepingForkSynced">
 
 ## Keep your fork synced
 
@@ -123,7 +123,7 @@ Now, you can keep your fork synced with the upstream repository with a few Git c
 
 </article>
 
-<article id="article5">
+<article id="forkingPossibilities">
 
 The sky is the limit with the changes you can make to a fork, including:
 

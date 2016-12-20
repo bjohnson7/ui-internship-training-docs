@@ -9,7 +9,7 @@ weight: 2
 
 ###### In this section, you will install programs that you will need, as well as set up the environment on your computer in order to use Liferay.
 
-<article id="article-1">
+<article id="downloads">
 
 ## Things We Need to Download
 [//]: # (I have not been able to get Digsby to work AT ALL...do we still include? -Ben)
@@ -45,7 +45,7 @@ weight: 2
 
 </article>
 
-<article id="article-2">
+<article id="environmentSetup">
 
 ## Environment Setup
 

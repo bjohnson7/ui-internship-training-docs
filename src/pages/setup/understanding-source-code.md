@@ -8,7 +8,7 @@ weight: 4
 
 ###### In this section, you will learn the difference between the source code (source) and the compiled code (bundle).
 
-<article id="article-1">
+<article id="sourceVsCompiled">
 
 ## Source Code vs. Compiled Code
 
@@ -24,7 +24,7 @@ You can download bundles at [[https://www.liferay.com/downloads|www.liferay.com/
 
 </article>
 
-<article id="article-2">
+<article id="gettingSourceCode">
 
 ## How do you get Source Code?
 
@@ -38,7 +38,7 @@ Take for example a cake. The source code would be the recipe for the cake. Modif
 
 </article>
 
-<article id="article-3">
+<article id="branchesVstrunk">
 
 ## Branches vs. Trunk
 
@@ -50,7 +50,7 @@ Take for example a cake. The source code would be the recipe for the cake. Modif
 
 </article>
 
-<article id="article-4">
+<article id="whySourceCode">
 
 ## Why do I need to get the Source Code?
 

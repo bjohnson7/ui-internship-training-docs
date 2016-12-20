@@ -8,7 +8,7 @@ weight: 1
 
 ###### In this section, you will learn about keyboard shortcuts and commands. Whenever possible, use keyboard shortcuts to navigate and execute simple actions. The better and faster you are at navigating, the better and faster you can work. The easiest way to understand what each command does is to try them as you go along.
 
-<article id="article-1">
+<article id="commandLine">
 
 ## Command Line / Terminal
 
@@ -26,7 +26,7 @@ To launch the command line / terminal
 </article>
 
 
-<article id="learning-2">
+<article id="Commands">
 
 ## Commands
 

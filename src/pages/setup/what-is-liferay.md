@@ -8,7 +8,7 @@ weight: 3
 
 ###### There are two editions of Liferay – the Community Edition (CE) and the Enterprise Edition (EE).
 
-<article id="article-1">
+<article id="liferayCE">
 
 ## Liferay CE
 
@@ -16,7 +16,7 @@ Liferay CE is free for anyone to download and use, and it usually has some of th
 
 </article>
 
-<article id="article-2">
+<article id="liferayEE">
 
 ## Liferay EE
 

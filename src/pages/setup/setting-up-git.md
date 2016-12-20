@@ -8,7 +8,7 @@ weight: 6
 
 ###### In this section, you will learn how to setup your GitHub.com account to begin downloading your source code from the Liferay repositories.
 
-<article id="article1">
+<article id="createGithubAccount">
 
 ## Create a Github Account
 
@@ -20,7 +20,7 @@ weight: 6
 
 </article>
 
-<article id="article2">
+<article id="SetupGit">
 
 ## Setting up Git
 
@@ -69,7 +69,7 @@ weight: 6
 
 </article>
 
-<article id="article3">
+<article id="authenticatingWithGithub">
 
 ## Authenticating with GitHub
 
