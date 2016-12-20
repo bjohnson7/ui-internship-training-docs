@@ -10,13 +10,13 @@ weight: 6
 
 <article id="createGithubAccount">
 
-## Create a Github Account
+## Create a GitHub Account
 
 1. Create an account on **[github.com](https://github.com)** using your **FIRSTNAME.LASTNAME@LIFERAY.COM** email as your email address.  Do not use the word **liferay** in your username.
-2. Add your **Full Name** to your Github public profile.
+2. Add your **Full Name** to your GitHub public profile.
 3. Add a picture using gravatar (be sure to use your **FIRSTNAME.LASTNAME@LIFERAY.COM** email address).
-4. Email **IT-support@liferay.com** with your **GITHUB_USERNAME** if you need access to the private repositories.
-5 Follow [[Brian Chan](https://github.com/brianchandotcom) (brianchandotcom) on Github.com. 
+4. Email **IT-support@liferay.com** with your **GITHUB USERNAME** if you need access to the private repositories.
+5 Follow [[Brian Chan (brianchandotcom)](https://github.com/brianchandotcom) on GitHub.com. 
 
 </article>
 
@@ -26,7 +26,7 @@ weight: 6
 
 1. Download and install the latest version of Git at <http://git-scm.com/downloads>.
 
-	If you are on Windows, and plan to use Git on other terminals besides Git Bash, you'll want to select "Run Git from the Windows Command Prompt" when you get to the screen that says "Adjusting your PATH environment".
+	If you are on Windows, and plan to use Git on other terminals besides Git Bash, you'll want to select "**Run Git from the Windows Command Prompt**" when you get to the screen that says "_Adjusting your PATH environment_".
 
 	Examples of programs/utilities that use Git include:
 
@@ -35,11 +35,12 @@ weight: 6
 	- IntelliJ
 	- Eclipse
 	- and many more...
+
 	![installing git](/images/install-git.jpg)
 
 	Git Bash and Command Prompt have essentially the same functionality except Git Bash is Linux based and was designed to be used with Git. It is up to you to use whichever terminal you prefer; some use the command prompt and some use Git Bash.
 
-	If you are on Windows, it is recommended that you select "Checkout as-is, commit Unix-style endings." Windows adds an extra character to the end of each line in text files, and Liferay will only accept files with Unix-style line endings. Sublime Text should be able to read files with Unix-style endings if you are on a Windows computer.
+	If you are on Windows, it is recommended that you select "**Checkout as-is, commit Unix-style endings.**" Windows adds an extra character to the end of each line in text files, and Liferay will only accept files with Unix-style line endings. Sublime Text should be able to read files with Unix-style endings if you are on a Windows computer.
 
 	![configure line endings](/images/change-line-endings.png)
 
@@ -49,7 +50,7 @@ weight: 6
 	$ source ~/.bash_profile
 	```
 
-3. Add your full name to your **.gitconfig** file by running the following command in your Terminal/Git Bash: (Replace the **FULL NAME** placeholder token with your full name).
+3. Add your full name to your `.gitconfig` file by running the following command in your Terminal/Git Bash: (Replace the `FULL NAME` placeholder token with your full name).
 
 	```
 	$ git config --global user.name "FULL NAME"
