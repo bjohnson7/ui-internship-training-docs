@@ -6,7 +6,7 @@ title: "Training Exercises"
 weight: 13
 ---
 
-###### Congratulations! You have successfully setup Liferay on your machine.  We will go through some training exercises to make sure you can navigate your way around Liferay.
+###### Congratulations! You have successfully set up Liferay on your machine.  We will go through some training exercises to make sure you can navigate your way around Liferay.
 
 <article id="whatYouShouldKnow">
 
@@ -18,15 +18,15 @@ weight: 13
 2. What is the difference between compiled code and uncompiled code?
 3. What is the difference between trunk and the branches?
 4. Where do I find the source code?
-5. Where is my **local** git repository? **origin** git repository? **upstream** git repository?
-6. Where can I find my **.gitconfig** file?  How do I update it?
+5. Where is my `local` git repository? `origin` git repository? `upstream` git repository?
+6. Where can I find my `.gitconfig` file?  How do I update it?
 7. What are git remotes?  Where are they pointed to?
 8. What is needed to run Liferay?
 9. What is an application server?
 10. What is a database?
-11. What do your **[computerName]**.properties files do?
-12. What does the _portal-ext.properties_ file do?
-13. Where do you run the command `**ant all**`?
+11. What do your `[computerName].properties` files do?
+12. What does the `portal-ext.properties` file do?
+13. Where do you run the command `ant all`?
 14. How do you start your Tomcat?
 15. How can you tell if your Liferay is running?
 16. Where do you see if there are errors being thrown by Liferay?
