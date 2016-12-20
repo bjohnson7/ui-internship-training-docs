@@ -18,7 +18,7 @@ Although Liferay offers a sophisticated programming interface for developers, no
 
 Liferay is bundled with a servlet container such as Apache Tomcat.
 
-#### What is needed to run Liferay?
+#### What is Needed to Run Liferay?
 
 Liferay needs **Java**, an **application server**, and a **database** to run. Our baseline setup is to use Apache Tomcat as the app server and Hypersonic/MySQL for the database.
 
@@ -72,17 +72,11 @@ Go to <https://www.liferay.com/downloads> and select "**Bundled with Tomcat**" a
 
 #### Start Liferay Portal
 
-
-1. Extract the downloaded bundle into some folder, e.g. 'portal'.
-2. Navigate to:
-
-```
-/portal/liferay-VERSION/tomcat-VERSION/bin
-```
-
+1. Extract the downloaded bundle into some folder, e.g. `portal`.
+2. Navigate to `/portal/liferay-VERSION/tomcat-VERSION/bin`
 3. Execute `startup.bat` (on windows) or `startup.sh` (on Unix/lLinux/Mac OS X/GitBash).
 
-	On Windows systems, the server console window will open.On \*nix systems and others, there is no output in console window as all logs are stored in *tomcat-VERSION/logs/catalina.out*. Keep watching it until you see something like:
+	On Windows systems, the server console window will open.On \*nix systems and others, there is no output in console window as all logs are stored in `tomcat-VERSION/logs/catalina.out`. Keep watching it until you see something like:
 
 	```
 	INFO: Server startup in NNN ms
