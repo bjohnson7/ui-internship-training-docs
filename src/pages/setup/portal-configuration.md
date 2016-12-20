@@ -75,35 +75,45 @@ To override settings in the _**portal.properties**_ file, you will need to creat
 2. Rename the file: _**portal-ext.properties**_.
 
 3. Open the _**portal-ext.properties**_ file in a text editor and edit the file to look like:
-	```
-	theme.css.fast.load=false
-	theme.css.fast.load.check.request.parameter=true
-	theme.images.fast.load=false
-	theme.images.fast.load.check.request.parameter=true
 
-	javascript.fast.load=true
-	javascript.log.enabled=false
-
-	layout.template.cache.enabled=false
-
-	browser.launcher.url=
-
-	combo.check.timestamp=true
-
-	freemarker.engine.cache.storage=soft:1
-	freemarker.engine.resource.modification.check.interval=0
-
-	minifier.enabled=false
-
-	openoffice.cache.enabled=false
-
-	velocity.engine.resource.modification.check.interval=0
-
-	com.liferay.portal.servlet.filters.cache.CacheFilter=false
-	com.liferay.portal.servlet.filters.etag.ETagFilter=false
-	com.liferay.portal.servlet.filters.header.HeaderFilter=false
-	com.liferay.portal.servlet.filters.themepreview.ThemePreviewFilter=true
-	```
+	<pre><code>
+		theme.css.fast.load=false
+		theme.css.fast.load.check.request.parameter=true
+		theme.images.fast.load=false
+		theme.images.fast.load.check.request.parameter=true
+		<br>
+		<br>
+		javascript.fast.load=true
+		javascript.log.enabled=false
+		<br>
+		<br>
+		layout.template.cache.enabled=false
+		<br>
+		<br>
+		browser.launcher.url=
+		<br>
+		<br>
+		combo.check.timestamp=true
+		<br>
+		<br>
+		freemarker.engine.cache.storage=soft:1
+		freemarker.engine.resource.modification.check.interval=0
+		<br>
+		<br>
+		minifier.enabled=false
+		<br>
+		<br>
+		openoffice.cache.enabled=false
+		<br>
+		<br>
+		velocity.engine.resource.modification.check.interval=0
+		<br>
+		<br>
+		com.liferay.portal.servlet.filters.cache.CacheFilter=false
+		com.liferay.portal.servlet.filters.etag.ETagFilter=false
+		com.liferay.portal.servlet.filters.header.HeaderFilter=false
+		com.liferay.portal.servlet.filters.themepreview.ThemePreviewFilter=true
+	</code></pre>
 
 	- _NOTE: When developing, you sometimes need to unminify your javascript code. To do this, set **javascript.fast.load=false**_
 
@@ -119,29 +129,34 @@ In order to develop in Liferay you need to set Liferay into developer mode so yo
 
 1. Browse to _PATH/liferay-bundle/tomcat-7.0.27/bin_.
 
-2) Using a text editor, open the _**setenv.sh**_ file if you are on a Mac/GitBash or the _**setenv.bat**_ file if you are on Windows.  Add the following line at the end of the file:
+2. Using a text editor, open the _**setenv.sh**_ file if you are on a Mac/GitBash or the _**setenv.bat**_ file if you are on Windows.  Add the following line at the end of the file:
 	```
 	 -Dexternal-properties=portal-ext.properties
 	```
-	Your file should look something like:
+3. Your file should look something like:
 	- **Mac/GitBash - setenv.sh**
-		<pre><code>
-			JAVA\_OPTS="$JAVA\_OPTS -Dfile.encoding=UTF8 -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE\_CLEAR\_REFERENCES=false -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m -Dexternal-properties=portal-ext.properties"
-		</code></pre>
+
+	<pre><code>
+		JAVA\_OPTS="$JAVA\_OPTS -Dfile.encoding=UTF8 -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE\_CLEAR\_REFERENCES=false -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m -Dexternal-properties=portal-ext.properties"
+	</code></pre>
+
 	- **Windows - setenv.bat**
-		<pre><code>
-		{literal}
-		if exist "%CATALINA_HOME%/jre${jdk.windows.version}/win" (
-			if not "%JAVA_HOME%" == "" (
-				set JAVA_HOME=
-			){/literal}
-		<br>
-		{literal}
-			set "JRE_HOME=%CATALINA_HOME%/jre${jdk.windows.version}/win"
-		)
-		{/literal}
-		<br>
-		set "JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF8 -Djava.net.preferIPv4Stack=true -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m -Dexternal-properties=portal-ext.properties"
-		</code></pre>
+
+	<pre><code>
+	{literal}
+	if exist "%CATALINA_HOME%/jre${jdk.windows.version}/win" (
+		if not "%JAVA_HOME%" == "" (
+			set JAVA_HOME=
+		){/literal}
+	<br>
+	<br>
+	{literal}
+		set "JRE_HOME=%CATALINA_HOME%/jre${jdk.windows.version}/win"
+	)
+	{/literal}
+	<br>
+	<br>
+	set "JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF8 -Djava.net.preferIPv4Stack=true -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m -Dexternal-properties=portal-ext.properties"
+	</code></pre>
 
 </article>
