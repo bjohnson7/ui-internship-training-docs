@@ -22,7 +22,7 @@ weight: 6
 
 <article id="setupGit">
 
-## Setting up Git
+## Setting Up Git
 
 1. Download and install the latest version of Git at <http://git-scm.com/downloads>.
 

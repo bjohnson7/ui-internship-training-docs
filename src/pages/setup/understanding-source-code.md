@@ -26,7 +26,7 @@ You can download bundles at [www.liferay.com/downloads](https://www.liferay.com/
 
 <article id="gettingSourceCode">
 
-## How do you get Source Code?
+## How Do You Get Source Code?
 
 Since Liferay is an open source software, all source code is available on GitHub for download and use. (See [github.com/liferay/liferay-portal](http://github.com/liferay/liferay-portal)).
 
@@ -52,7 +52,7 @@ Take for example a cake. The source code would be the recipe for the cake. Modif
 
 <article id="whySourceCode">
 
-## Why do I need to get the Source Code?
+## Why Do I Need to Get the Source Code?
 
 If you find a bug in a bundle, it is good practice to find out if it is also in the latest source code of bundle version. If it exists in the latest source code of that bundle version, a fix should be applied to all versions of that bundle.
 

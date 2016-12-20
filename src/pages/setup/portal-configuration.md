@@ -29,7 +29,7 @@ As a rule, **ONLY** edit the `*.COMPUTER_NAME.properties` files.
 
 <article id="setBuildAndAppServerProperties">
 
-## Setting build.properties/app.server.properties
+## Setting _build.properties_/_app.server.properties_
 
 1. Create a new file called `build.COMPUTER_NAME.properties` and `app.server.COMPUTER_NAME.properties` inside the `liferay-portal` folder created in [Section 7 (Getting Liferay's Source Code)](/setup/getting-liferays-source-code.html).
 
@@ -72,7 +72,7 @@ As a rule, **ONLY** edit the `*.COMPUTER_NAME.properties` files.
 
 <article id="settingPortalExtProperties">
 
-## Setting portal.properties/portal-ext.properties
+## Setting _portal.properties_/_portal-ext.properties_
 
 To override settings in the `portal.properties` file, you will need to create a file called `portal-ext.properties`. (You will be working with this file a lot).
 

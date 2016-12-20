@@ -10,7 +10,7 @@ weight: 13
 
 <article id="whatYouShouldKnow">
 
-## What You Should Know By Now
+## What You Should Know by Now
 
 **Before you start the exercises, you must be able to answer these questions:**
 
@@ -37,13 +37,13 @@ weight: 13
 
 ## Exercises
 
-#### Deploying and undeploying a plugin
+#### Deploying and Undeploying a Plugin
 
 1. Deploy a portlet in the plugins repository.
 2. Add it to the Liferay portal.
 3. Deploy 2 more plugins and add them to Liferay.
 
-#### Deploying and undeploying a theme
+#### Deploying and Undeploying a Theme
 
 1. Deploy a theme in the plugins repository.
 2. You may have to deploy additional dependencies to get this theme to work.

@@ -20,7 +20,7 @@ Most commonly, forks are used to either propose changes to someone else's projec
 
 <article id="proposeChanges">
 
-## Propose changes to Liferay
+## Propose Changes to Liferay
 
 A great example of using forks to propose changes is for bug fixes. To submit fixes for a bug you have found, you can:
 
@@ -32,7 +32,7 @@ A great example of using forks to propose changes is for bug fixes. To submit fi
 
 <article id="forkLiferay">
 
-## Fork Liferay Portal's repository
+## Fork Liferay Portal's Repository
 
 Forking a repository is a simple two-step process. In order to begin making changes, you will need to fork the repository.
 
@@ -45,7 +45,7 @@ That is it! Now, you have a fork of the original _liferay/liferay-portal_ reposi
 
 <article id="keepingForkSynced">
 
-## Keep your fork synced
+## Keep Your Fork Synced
 
 As you submit bug fixes and updates to the upstream, or original, repository, it is good practice to regularly sync your fork with the upstream repository. To do this, you will need to use Git on the command line.
 
@@ -53,7 +53,7 @@ As you submit bug fixes and updates to the upstream, or original, repository, it
 
 If you have not yet, you should first [set up Git](/setup/setting-up-git.html). Do not forget to [set up authentication to GitHub from Git](/setup/setting-up-git.html#authenticatingWithGithub) as well.
 
-#### Step 2: Create a local clone of your fork
+#### Step 2: Create a Local Clone of Your Fork
 
 Right now, you have a fork of the _liferay/liferay-portal_ repository, but you do not have the files in that repository on your computer. Let us create a clone of your fork locally on your computer.
 
