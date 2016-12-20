@@ -27,6 +27,13 @@ gulp.task('fonts', () => {
 		.pipe(gulp.dest('dist/fonts'));
 });
 
+// Images ----------------------------------------------------------------------
+
+gulp.task('images', () => {
+	return gulp.src('src/images/**/*.+(png|jpg)')
+		.pipe(gulp.dest('dist/images'))
+});
+
 // Server ----------------------------------------------------------------------
 
 gulp.task('server', () => {
@@ -60,7 +67,7 @@ gulp.task('watch', () => {
 // Build -----------------------------------------------------------------------
 
 gulp.task('build', (callback) => {
-	runSequence('generate', ['css', 'fonts', 'wedeploy'], callback);
+	runSequence('generate', ['css', 'fonts', 'images', 'wedeploy'], callback);
 });
 
 gulp.task('default', (callback) => {
