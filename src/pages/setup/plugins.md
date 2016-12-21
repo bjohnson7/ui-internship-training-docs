@@ -12,7 +12,7 @@ weight: 12
 
 ## What Are Plugins?
 
-To make a plugin, you have to take the source code and compile it into a _.war_ file that you deploy into Liferay portal. Basically, you take the WAR file and drop it into the deploy folder (ie. `**PATH**/liferay-bundle/deploy`). Liferay will autoscan the deploy folder and process the `WAR` file for use within the portal.
+To make a plugin, you have to take the source code and compile it into a _.war_ file that you deploy into Liferay portal. Basically, you take the WAR file and drop it into the deploy folder (ie. `PATH/liferay-bundle/deploy`). Liferay will autoscan the deploy folder and process the `WAR` file for use within the portal.
 
 </article>
 
