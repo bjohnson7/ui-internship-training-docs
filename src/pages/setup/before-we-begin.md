@@ -106,13 +106,13 @@ Liferay is written in Java. Hence, you need Java.
 
 2. Enter the command below to activate the ability to see the hidden files
 
-	```
+	```bash
 	$ defaults write com.apple.Finder AppleShowAllFiles TRUE
 	```
 
 3. Relaunch the Finder to make the changes take effect by killing it
 
-	```
+	```bash
 	$ killall Finder
 	```
 
@@ -140,13 +140,13 @@ Liferay is written in Java. Hence, you need Java.
 
 2. Enter the contents below into the `.bash_profile`
 
-	```
+	```bash
 	export ANT_OPTS="-Xms2048m -Xmx4096m"
 	```
 
 3. Relaunch the Terminal by entering
 
-	```
+	```bash
 	$ source ~/.bash_profile
 	```
 

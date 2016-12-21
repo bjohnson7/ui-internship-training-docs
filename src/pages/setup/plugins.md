@@ -30,11 +30,10 @@ To make a plugin, you have to take the source code and compile it into a _.war_ 
 		- When plugins are getting built, ant will pull in files from the bundle so you have to make sure that your plugin source version is the same as the portal source version.  If not, you may get usability errors when trying to build or deploy the plugins.
 	- The second property points to where your deploy directory is.
 
-	<pre><code>
-		app.server.dir=PATH/liferay-bundle/tomcat-8.0.32
-		<br>
-		auto.deploy.dir=PATH/liferay-bundle/deploy
-	</code></pre>
+	```properties
+	{literal}app.server.dir=PATH/liferay-bundle/tomcat-8.0.32
+	auto.deploy.dir=PATH/liferay-bundle/deploy{/literal}
+	```
 
 </article>
 
@@ -48,7 +47,7 @@ Now that you have all the source code you need to make any Liferay plugin, we wi
 
 	- This command will create a `.war` file of the plugin in your `PATH/liferay-bundle/dist` folder. To deploy the plugin, you can drag and drop the file into your deploy folder.
 
-	```
+	```bash
 	$ ant clean war
 	```
 
@@ -56,7 +55,7 @@ Now that you have all the source code you need to make any Liferay plugin, we wi
 
 	- This command will create a `.war` file and automatically move it to the location specified by your `auto.deploy.dir` property in the `build.COMPUTER_NAME.properties` file. The `ant clean war` command is contained within the `ant clean deploy` command.
 
-	```
+	```bash
 	$ ant clean deploy
 	```
 

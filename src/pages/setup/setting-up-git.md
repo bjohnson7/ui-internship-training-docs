@@ -46,25 +46,25 @@ weight: 6
 
 2. Relaunch the Terminal by running the following command in your Terminal/Git Bash:
 
-	```
+	```bash
 	$ source ~/.bash_profile
 	```
 
 3. Add your full name to your `.gitconfig` file by running the following command in your Terminal/Git Bash: (Replace the `FULL NAME` placeholder token with your full name).
 
-	```
+	```bash
 	$ git config --global user.name "FULL NAME"
 	```
 
 4. Add your Liferay email address (**@liferay.com**) to your **.gitconfig** file by running the following command in your Terminal/Git Bash: (Replace the **FIRSTNAME.LASTNAME** placeholder token with your actual email).
 
-	```
+	```bash
 	$ git config --global user.email "FIRSTNAME.LASTNAME@liferay.com"
 	```
 
 5. If you are on Windows, you will need to add a setting to your **.gitconfig** file by running the following command in your Terminal/Git Bash:
 
-	```
+	```bash
 	$ git config --global core.longpaths true
 	```
 

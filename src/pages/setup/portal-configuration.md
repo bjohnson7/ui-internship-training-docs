@@ -37,7 +37,7 @@ As a rule, **ONLY** edit the `*.COMPUTER_NAME.properties` files.
 
 2. Edit your `build.COMPUTER_NAME.properties` with the following lines in a text editor:
 
-	```
+	```properties
 	javac.memoryMaximumSize=1024m
 	```
 
@@ -48,23 +48,19 @@ As a rule, **ONLY** edit the `*.COMPUTER_NAME.properties` files.
 	- The third property (`app.server.tomcat.dir`) sets where the Tomcat files are located.
 	- _NOTE: If you have not created a bundle in this directory, do not worry, you will in the next section._
 
-	<pre><code>
-		app.server.type=tomcat
-		<br>
-		app.server.parent.dir=PATH/bundles
-		<br>
-		app.server.tomcat.dir=PATH/bundles/tomcat-8.0.32
-	</code></pre>
+	```properties
+	{literal}app.server.type=tomcat
+	app.server.parent.dir=PATH/bundles
+	app.server.tomcat.dir=PATH/bundles/tomcat-8.0.32{/literal}
+	```
 
 	- _NOTE: you can use relative paths in your file as well_
 
-	<pre><code>
-		app.server.type=tomcat
-		<br>
-		app.server.parent.dir=${lb}project.dir{rb}/bundles
-		<br>
-		app.server.tomcat.dir=${lb}app.server.parent.dir{rb}/tomcat-8.0.32
-	</code></pre>
+	```properties
+	{literal}app.server.type=tomcat
+	app.server.parent.dir=${project.dir}/bundles
+	app.server.tomcat.dir=${app.server.parent.dir}/tomcat-8.0.32{/literal}
+	```
 
 	- _NOTE: you must use forward slashes "/" in these values_
 
@@ -82,52 +78,35 @@ To override settings in the `portal.properties` file, you will need to create a 
 
 3. Open the `portal-ext.properties` file in a text editor and edit the file to look like:
 
-	<pre><code>
-		theme.css.fast.load=false
-		<br>
-		theme.css.fast.load.check.request.parameter=true
-		<br>
-		theme.images.fast.load=false
-		<br>
-		theme.images.fast.load.check.request.parameter=true
-		<br>
-		<br>
-		javascript.fast.load=true
-		<br>
-		javascript.log.enabled=false
-		<br>
-		<br>
-		layout.template.cache.enabled=false
-		<br>
-		<br>
-		browser.launcher.url=
-		<br>
-		<br>
-		combo.check.timestamp=true
-		<br>
-		<br>
-		freemarker.engine.cache.storage=soft:1
-		<br>
-		freemarker.engine.resource.modification.check.interval=0
-		<br>
-		<br>
-		minifier.enabled=false
-		<br>
-		<br>
-		openoffice.cache.enabled=false
-		<br>
-		<br>
-		velocity.engine.resource.modification.check.interval=0
-		<br>
-		<br>
-		com.liferay.portal.servlet.filters.cache.CacheFilter=false
-		<br>
-		com.liferay.portal.servlet.filters.etag.ETagFilter=false
-		<br>
-		com.liferay.portal.servlet.filters.header.HeaderFilter=false
-		<br>
-		com.liferay.portal.servlet.filters.themepreview.ThemePreviewFilter=true
-	</code></pre>
+	```properties
+	{literal}theme.css.fast.load=false
+	theme.css.fast.load.check.request.parameter=true
+	theme.images.fast.load=false
+	theme.images.fast.load.check.request.parameter=true
+
+	javascript.fast.load=true
+	javascript.log.enabled=false
+
+	layout.template.cache.enabled=false
+
+	browser.launcher.url=
+
+	combo.check.timestamp=true
+
+	freemarker.engine.cache.storage=soft:1
+	freemarker.engine.resource.modification.check.interval=0
+
+	minifier.enabled=false
+
+	openoffice.cache.enabled=false
+
+	velocity.engine.resource.modification.check.interval=0
+
+	com.liferay.portal.servlet.filters.cache.CacheFilter=false
+	com.liferay.portal.servlet.filters.etag.ETagFilter=false
+	com.liferay.portal.servlet.filters.header.HeaderFilter=false
+	com.liferay.portal.servlet.filters.themepreview.ThemePreviewFilter=true{/literal}
+	```
 
 	- _NOTE: When developing, you sometimes need to unminify your javascript code. To do this, set `javascript.fast.load=false`_
 
@@ -144,30 +123,30 @@ In order to develop in Liferay you need to set Liferay into developer mode so yo
 1. Browse to `PATH/liferay-bundle/tomcat-7.0.27/bin`.
 
 2. Using a text editor, open the `setenv.sh` file if you are on a Mac/Git Bash or the `setenv.bat` file if you are on Windows.  Add the following line at the end of the file:
-	```
+
+	```bash
 	 -Dexternal-properties=portal-ext.properties
 	```
+
 3. Your file should look something like:
 	- **Mac/Git Bash - `setenv.sh`**
 
-	<pre><code>
-		JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF8 -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m -Dexternal-properties=portal-ext.properties"
-	</code></pre>
+	```bash
+	{literal}JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF8 -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m -Dexternal-properties=portal-ext.properties"{/literal}
+	```
 
 	- **Windows - `setenv.bat`**
 
-	<pre><code>
-		if exist "%CATALINA_HOME%/jre${lb}jdk.windows.version{rb}/win" (
-			if not "%JAVA_HOME%" == "" (
-				set JAVA_HOME=
-			)
-		<br>
-		<br>
-			set "JRE_HOME=%CATALINA_HOME%/jre${lb}jdk.windows.version{rb}/win"
+	```bat
+	{literal}if exist "%CATALINA_HOME%/jre${jdk.windows.version}/win" (
+		if not "%JAVA_HOME%" == "" (
+			set JAVA_HOME=
 		)
-		<br>
-		<br>
-		set "JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF8 -Djava.net.preferIPv4Stack=true -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m -Dexternal-properties=portal-ext.properties"
-	</code></pre>
+
+		set "JRE_HOME=%CATALINA_HOME%/jre${jdk.windows.version}/win"
+	)
+
+	set "JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF8 -Djava.net.preferIPv4Stack=true -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m -Dexternal-properties=portal-ext.properties"{/literal}
+	```
 
 </article>

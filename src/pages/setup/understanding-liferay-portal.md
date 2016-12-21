@@ -78,7 +78,7 @@ Go to <https://www.liferay.com/downloads> and select "**Bundled with Tomcat**" a
 
 	On Windows systems, the server console window will open.On \*nix systems and others, there is no output in console window as all logs are stored in `tomcat-VERSION/logs/catalina.out`. Keep watching it until you see something like:
 
-	```
+	```bash
 	INFO: Server startup in NNN ms
 	```
 

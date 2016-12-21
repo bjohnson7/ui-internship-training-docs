@@ -63,25 +63,20 @@ Right now, you have a fork of the _liferay/liferay-portal_ repository, but you d
 4. Open Terminal/Git Bash.
 5. Type `git clone`, and then paste the URL you copied in Step 2. It will look like this, with your GitHub username instead of YOUR-USERNAME:
 
-	```
+	```bash
 	$ git clone https://github.com/YOUR-USERNAME/liferay-portal
 	```
 
 6. Press **Enter**. Your local clone will be created.
 
-	<pre><code>
-		$ git clone https://github.com/YOUR-USERNAME/liferay-portal
-		<br>
-		Cloning into 'liferay-portal' ...
-		<br>
-		remote: Counting objects: 10, done.
-		<br>
-		remote: Compressing objects: 100% (8/8), done.
-		<br>
-		remove: Total 10 (delta 1), reused 10 (delta 1)
-		<br>
-		Unpacking objects: 100% (10/10), done.
-	</code></pre>
+	```bash
+	{literal}$ git clone https://github.com/YOUR-USERNAME/liferay-portal
+	Cloning into 'liferay-portal' ...
+	remote: Counting objects: 10, done.
+	remote: Compressing objects: 100% (8/8), done.
+	remove: Total 10 (delta 1), reused 10 (delta 1)
+	Unpacking objects: 100% (10/10), done.{/literal}
+	```
 
 Now, you have a local copy of your fork of the _liferay-portal_ repository!
 
@@ -102,33 +97,27 @@ When you fork a project in order to propose changes to the original repository, 
 
 6. Type `git remote -v` and press **Enter**. You will see the current configured remote repository for your fork.
 
-	<pre><code>
-		$ git remote -v
-		<br>
-		origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-		<br>
-		origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-	</code></pre>
+	```bash
+	{literal}$ git remote -v
+	origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+	origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push){/literal}
+	```
 
 7. Type `git remote add upstream`, and then paste the URL you copied in Step 2 and press **Enter**. It will look like this:
 
-	```
+	```bash
 	$ git remote add upstream https://github.com/liferay/liferay-portal.git
 	```
 
 8. To verify the new upstream repository you have specified for your fork, type `git remote -v` again. You should see the URL for your fork as `origin`, and the URL for the original repository as `upstream`.
 
-	<pre><code>
-		$ git remote -v
-		<br>
-		origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-		<br>
-		origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git(push)
-		<br>
-		upstream    https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
-		<br>
-		upstream    https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
-	</code></pre>
+	```bash
+	{literal}$ git remote -v
+	origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+	origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git(push)
+	upstream    https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+	upstream    https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push){/literal}
+	```
 
 Now, you can keep your fork synced with the upstream repository with a few Git commands. For more information, see [Syncing a Fork](/setup/setting-up-git.html).
 
