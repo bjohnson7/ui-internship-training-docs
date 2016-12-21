@@ -158,7 +158,7 @@ Liferay is written in Java. Hence, you need Java.
 
 3. Set it with only the value: `-Xms2048m -Xmx4096m`
 
-	![Set ANT_OPTS tutorial image](//in.liferay.com/documents/114255/0d3cf0c8-4d12-4b3d-b7d1-09481d535773)
+	![Set ANT_OPTS tutorial image](/images/set-ant-opts.jpg)
 
 </article>
 
@@ -186,7 +186,7 @@ Liferay is written in Java. Hence, you need Java.
 
 3. Click on '**Change...**' to rename the computer.
 
-	![Change Computer Name Image](//in.liferay.com/documents/114255/034054a8-9587-4098-8a56-f6028659a582)
+	![Change Computer Name Image](/images/change-computer-name.jpg)
 
 4. Type in what you want your new computer name to be
 

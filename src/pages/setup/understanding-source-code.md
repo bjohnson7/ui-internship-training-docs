@@ -42,7 +42,7 @@ Take for example a cake. The source code would be the recipe for the cake. Modif
 
 ## Branches vs. Trunk
 
-![Branches diagram](http://in.liferay.com/documents/114255/77c83c9c-bd26-432d-8747-8d63d6db85e6)
+![Branches diagram](/images/git-tree.png)
 
 *Trunk* is the latest and greatest of the source code. There are many branches of Liferay, so you need to be sure which branch you are working on. (6.1.x, 6.2.x, 7.0.x, master, etc).
 

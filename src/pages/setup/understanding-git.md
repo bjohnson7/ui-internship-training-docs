@@ -65,7 +65,7 @@ Liferay takes advantage of Git's branch structure to store multiple versions of 
 3. `upstream` (the source code on GitHub.com where the main repository resides)
 	- The copy of the source code where all final changes and updates are stored in Liferay's GitHub account/cloud. All the source code for Liferay Portal. Think of this as the Liferay cloud that contains only the reviewed and committed changes. Only a few people are allowed to push files into `upstream` (Brian Chan, Nate Cavanaugh, etc.). Even though you will be working with source code, you will never actually be pushing to this repository. Although your changes (or commits) might eventually make it here, they first will go through reviewers who then will push those commits to this repository.
 
-![illustration of different repos](http://in.liferay.com/documents/114255/c81dda85-cd7e-41b5-bd49-a9a9de154923)
+![illustration of different repos](/images/git-repos.png)
 
 #### Then the Git Workflow Looks Something Like This:
 
