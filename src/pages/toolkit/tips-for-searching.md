@@ -6,46 +6,66 @@ title: "Tips For Searching"
 weight: 8
 ---
 
-###### Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss deixa as pessoas mais interessantiss. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.
+###### Much of the leg-work of what you'll be doing will involve a significant amount of searching--whether that be for a class name or a property name. Being able to search well is an invaluable asset for your experience and effectiveness while working in UI. Below are some tips for searching well:
 
-<article id="article1">
+<article id="sublimeText">
 
-## Fancy pants title
+## Using Sublime Text
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+[Search](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/search_and_replace/search_and_replace_files.html) using `CTRL + SHIFT + F`. This has been mentioned before, but seriously, you will find yourself using it a lot. If you know that you're looking for a certain type of file, you can search, for example, in `*.css` or `*.java`, `*.jsp`.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+It may also be helpful for searching to learn Sublime's regular expressions. Sublime uses Boost syntax for regular expression. Check out [Boost](http://www.boost.org/doc/libs/1_47_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html) documentation to learn how to use regular experessions in Sublime.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+**Note:** To enable regular expression search in sublime, make sure the leftmost button (the one with the symbols `.*`) is selected next to the search box.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-</article>
-
-<article id="article2">
-
-## Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+What do you do when you've found everything you're looking for? Place a bookmark. Smart bookmarking will save you from searching for the same things over and over again. You can set a bookmark at the current line by pressing `CTRL + F2`. Press `F2` to cycle through your current bookmarks.
 
 </article>
 
-<article id="article3">
+<article id="DevTools">
 
-## Lorem ipsum dolor sit amet
+## Google Developer Tools
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+Google's Developer Tools come standard with Chrome, and are incredibly neat and easy to use. While some prefer Firebug, Google Chrome is great for understanding the breakdown of different elements, and what styles or functions are being applied to them. You can easily tweak styles, remove classes, etc., quickly, and without any permanent changes being applied.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+**Resource:** Check out [Code School's tutorials on Google's Developer Tools](http://discover-devtools.codeschool.com/) for learning the Chrome debugger.
 
 </article>
+
+[//]: # (Do I even include this section? Firefox seems to ship with Firebug built in...or at least the szearch function. Also, seems like Chrome's search function has improved greatly)
+
+<article id="firebug">
+
+## Firebug
+
+Firefox's built in developer tools are next-to-useless compared to Chrome's Developer Tools, but Firebug (different than Firefox's developer tools) can be incredibly useful, especially when looking to see where specific elements are used. The search function will look through the entire HTML markup, and is more effective in this capacity than Chrome.
+
+</article>
+
+<h4>Windows Explorer</h4>
+
+<ul>
+	<li>Windows Explorer is great if you need to track down a file or a directory, but it can be incredibly misleading when trying to find keywords, especially ones that are parts of long strings of text. Use Sublime for searching for anything that isn't obvious.</li>
+	<br />
+	<br />
+	<br />
+	&nbsp;
+	<li>&nbsp;</li>
+</ul>
+
+<h4>Methods</h4>
+
+<ul>
+	<li>Don't get tunnel vision. It's going to happen, but try to fight it. Try to start by looking at the whole picture, and then systematically narrow your search down. If you find you've spent 2 days trying to pinpoint a certain class, or a specific JS function, you probably have tunnel vision. This may not be the case, but it's likely.</li>
+	<br />
+	<li>If you're stuck, ask for help, whether that be a coworker or Google. A lot of people have done exactly what you're currently doing. Don't be afraid of asking for help.</li>
+	<br />
+	<li>It was mentioned once, but Firebug is amazing with searching.</li>
+	<br />
+	<li>Choose good keywords. Searching the entire liferay-portal repository with a keyword that is too broad or common will return you hundreds of results. Use keywords that are likely to only appear in a few places.</li>
+	<br />
+	<br />
+	<br />
+	&nbsp;
+	<li>&nbsp;</li>
+</ul>

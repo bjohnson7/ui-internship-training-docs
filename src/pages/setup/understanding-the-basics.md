@@ -25,7 +25,6 @@ To launch the command line / terminal
 
 </article>
 
-
 <article id="Commands">
 
 ## Commands
@@ -85,7 +84,6 @@ To launch the command line / terminal
 | `ALT + D`    | Address bar                           | `CTRL + L`      |
 | `CTRL + +/-` | Zoom in/out                           | `CTRL + Scroll` |
 | `CTRL + 0`   | Return to default zoom state          |                 |
-
 
 #### General Navigation
 
