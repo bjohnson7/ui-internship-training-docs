@@ -42,30 +42,22 @@ Firefox's built in developer tools are next-to-useless compared to Chrome's Deve
 
 </article>
 
-<h4>Windows Explorer</h4>
+<article id="fileExplorer">
 
-<ul>
-	<li>Windows Explorer is great if you need to track down a file or a directory, but it can be incredibly misleading when trying to find keywords, especially ones that are parts of long strings of text. Use Sublime for searching for anything that isn't obvious.</li>
-	<br />
-	<br />
-	<br />
-	&nbsp;
-	<li>&nbsp;</li>
-</ul>
+## Windows File Explorer
 
-<h4>Methods</h4>
+Windows File Explorer is great if you need to track down a file or a directory, but it can be incredibly misleading when trying to find keywords, especially ones that are parts of long strings of text. Use Sublime for searching for anything that isn't obvious.
 
-<ul>
-	<li>Don't get tunnel vision. It's going to happen, but try to fight it. Try to start by looking at the whole picture, and then systematically narrow your search down. If you find you've spent 2 days trying to pinpoint a certain class, or a specific JS function, you probably have tunnel vision. This may not be the case, but it's likely.</li>
-	<br />
-	<li>If you're stuck, ask for help, whether that be a coworker or Google. A lot of people have done exactly what you're currently doing. Don't be afraid of asking for help.</li>
-	<br />
-	<li>It was mentioned once, but Firebug is amazing with searching.</li>
-	<br />
-	<li>Choose good keywords. Searching the entire liferay-portal repository with a keyword that is too broad or common will return you hundreds of results. Use keywords that are likely to only appear in a few places.</li>
-	<br />
-	<br />
-	<br />
-	&nbsp;
-	<li>&nbsp;</li>
-</ul>
+</article>
+
+<article id="methods">
+
+## Methods
+
+If you're stuck, ask for help, whether that be a coworker or Google. A lot of people have done exactly what you're currently doing. Don't be afraid of asking for help.
+
+It was mentioned once, but Firebug is amazing with searching.
+
+Choose good keywords. Searching the entire liferay-portal repository with a keyword that is too broad or common will return you hundreds of results. Use keywords that are likely to only appear in a few places.
+
+</article>
