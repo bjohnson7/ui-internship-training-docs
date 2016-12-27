@@ -6,46 +6,57 @@ title: "Learn CSS"
 weight: 3
 ---
 
-###### Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss deixa as pessoas mais interessantiss. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.
+<article id="whatIsCSS">
 
-<article id="article1">
+## What is CSS?
 
-## Fancy pants title
+- CSS stands for **Cascading Style Sheets**
+- Styles define **how to display** HTML elements
+- Styles were added to HTML 4.0 to **solve a problem**
+- **External Style Sheets** can save a lot of work
+- External Style Sheets are stored in **CSS files**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
 
 </article>
 
-<article id="article2">
+<article id="tutorials">
 
-## Lorem ipsum dolor sit amet
+## Tutorials
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+Carefully go through each tutorial. Don't be afraid to experiment in the text editor. You should move on to the next tutorial only **AFTER **you feel comfortable with all aspects of what you just learned. If not, don't be afraid to spend some extra time on it.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+Use the tutorials below:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+- <http://www.w3schools.com/css/default.asp>
+- <http://www.codecademy.com/tracks/web>
+- <https://developer.mozilla.org/en-US/docs/Web/CSS?menu>
 
 </article>
 
-<article id="article3">
+<article id="whatYouGet">
 
-## Lorem ipsum dolor sit amet
+## What you get
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+At w3schools.com, there are some very good tutorials that will ensure that you have a strong foundation in CSS. But you only get as much as you put in. Make sure to learn everything right the first time around!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+At codecademy.com, HTML and CSS is taught together via tutorials and hands-on projects. This is probably the best way to teach these languages as CSS and HTML go hand in hand!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+</article>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.
+<article id="otherResources">
+
+## Other Resources
+
+<http://www.codecademy.com/glossary/css|CSS Glossary>
+
+**Tip:** Try opening Google DevTools (for Chrome) using `CTRL + SHIFT + I` **or Firebug (for Firefox)**.** These nifty tools allow you to live-edit the CSS for any site. Go to a familiar or famous site and mess with the CSS to see what you can do with it (e.g. change Facebook's color scheme or alter Liferay's public website to your liking). This can be a fun, hands-on way to learn CSS alongside the tutorials. This will also be helpful when/if you build your own theme for Liferay or need to debug a CSS issue.
+
+</article>
+
+<article id="quiz">
+
+## Quiz
+
+After you've gone through all of the links, take the [CSS Quiz](http://www.w3schools.com/css/css_quiz.asp) at w3schools.com.
 
 </article>
