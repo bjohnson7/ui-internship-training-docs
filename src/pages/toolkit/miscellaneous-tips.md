@@ -26,24 +26,9 @@ Take notes. Get a notebook, sticky notes, napkins, etc. and take notes. What you
 - Never run an `ant all` or an `ant deploy` in your plugins repo. Always specify a folder.
 - When deploying specific plugins, an `ant all` command can typically be used in lieu of an `ant deploy`, and is usually more effective and clean.
 - Think about the way you are organizing your files. Create multiple bundles and use multiple copies of `liferay-portal` and `liferay-plugins` for every bundle you have. Here is a hint, separate your bundles and your core repositories. This way you can navigate them more clearly, this will also help you navigate your machine and bundles.
-
-If you are editing a file in the `portal-web` folder, you can make changes to the corresponding file in your bundle folder. This will allow you to view the results of your changes simply by refreshing the page rather than having to run `ant deploy` every time. For example, if you are working on `liferay-portal/portal-web/docroot/html/portlet/init.jsp`, the corresponding file can be found at `tomcat-7.0.40/webapps/ROOT/html/portlet/init.jsp`. Just be sure to apply your changes to the original file when you are done.
-
-
+- If you are editing a file in the `portal-web` folder, you can make changes to the corresponding file in your bundle folder. This will allow you to view the results of your changes simply by refreshing the page rather than having to run `ant deploy` every time. For example, if you are working on `liferay-portal/portal-web/docroot/html/portlet/init.jsp`, the corresponding file can be found at `tomcat-7.0.40/webapps/ROOT/html/portlet/init.jsp`. Just be sure to apply your changes to the original file when you are done.
+- Whenever you write code, make sure that it complies with Liferay's [source formatting guidelines](http://in.liferay.com/web/global.engineering/wiki/-/wiki/Core+Development+Main/Peer+Reviews+Checklist).
+	- With regards to formatting - `ant format-source` is extremely useful, although it hates inline comments. Be careful and deliberate about it - step back and really look at the code and remove anything over complicated or superfluous. According to Liferay, _the code should be readable without comments_.
+- Know your code- why everything is there, what it does, why it is needed. You are responsible for the code that you write, having that depth of knowledge forces you to make it good, and helps when you explain what you did. It also helps recognize stuff you can cut out when you format.
 
 </article>
-
-<br />
-<li><strong>[<span style="color: orange;">**</span>] </strong>Whenever you write code, make sure that it complies with Liferay's <a href="http://in.liferay.com/web/global.engineering/wiki/-/wiki/Core+Development+Main/Peer+Reviews+Checklist">source formatting guidelines</a>.</li>
-<br />
-<li>
-<div><strong>[<span style="color: red;">***</span>]</strong> With regards to formatting - <code>ant format-source</code> is extremely useful, although it hates inline comments. Be careful and deliberate about it - step back and really look at the code and remove anything over complicated or superfluous. According to Liferay, the code should be readable without comments.&nbsp;</div>
-</li>
-<br />
-<li>
-<div><strong>[<span style="color: red;">***</span>]</strong><span style="line-height: 1.5em;"> Know your code- why everything is there, what it does, why it is needed. You are responsible for the code that you write, having that depth of knowledge forces you to make it good, and helps when you explain what you did. It also helps recognize stuff you can cut out when you format.&nbsp;</span></div>
-</li>
-<br />
-<br />
-&nbsp;
-

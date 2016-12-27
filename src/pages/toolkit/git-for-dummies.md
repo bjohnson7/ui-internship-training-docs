@@ -184,6 +184,8 @@ To learn more about interactive rebase, go to <https://help.github.com/articles/
 
 The biggest thing to remember if you are just starting out with Git is just to be careful and patient. Always make a new branch (`git checkout -b <branchname>`) for the work that you are doing &mdash; if you always work in a separate branch there may be a little bit more overhead time, but if you screw up then you can easily fix it. If you send code off to be approved, don't touch it - if you need to work on it again, you'll get it back, or receive and okay to work on it again, don't risk conflicting with changes that a supervisor might make and then send to you by changing stuff in your specific copy that could conflict with someone else's. Don't ever try to "recreate" changes someone else made that you don't have access to, ask them for a pull request or get your hands on it the right way. Git can have a high degree of complexity as a whole, but you can make your little slice of things pretty simple, so don't make it harder on yourself.
 
+</article>
+
 <article id="debuggingWithGit">
 
 ## Debugging with Git
@@ -246,18 +248,15 @@ A merging conflict occurs when we try to do a merge, rebase or cherry-pick opera
 
 1. Open SmartGit
 
+2. Double click on the file with exclaimation mark (the exclaimation mark indicates a conflicted file) to open up the three-panel editor, Conflict Solver
+​
+	- The left panel shows what's new on the master. Usually these are the changes that we want to keep
+	- The center panel is the working branch. This is where we select the changes that we want and make any further modifications if needed.
+	- The right panel shows the changes we have made
+3. Fix the conflict and stash the changes. Staging the file marks it as resolved in Git. Continue the process for the next conflicted file until there is no more conflicts
+4. Now all the conflicts have been resolved, we run `$git rebase --continue` to continue the merging process
+
 </article>
-Double click on the file with exclaimation mark (the exclaimation mark indicates a conflicted file) to open up the three-panel editor, Conflict Solver
-​The left panel shows what's new on the master. Usually these are the changes that we want to keep
-The center panel is the working branch. This is where we select the changes that we want and make any further modifications if needed.
-The right panel shows the changes we have made
-Fix the conflict and stash the changes. Staging the file marks it as resolved in Git. Continue the process for the next conflicted file until there is no more conflicts
-Now all the conflicts have been resolved, we run $git rebase --continue to continue the merging process
-
-Resources:
-
-25 Tips for Intermediate Git Users
-Has both explanations and examples of some useful git commands.
 
 
 
