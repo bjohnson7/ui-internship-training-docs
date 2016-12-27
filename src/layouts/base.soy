@@ -8,6 +8,9 @@
  * @param? scripts
  */
 {template .render private="true"}
+
+{let $accentName: $page.accentIndex ? $site.accents[$page.accentIndex].name : 'default' /}
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -19,7 +22,7 @@
 		<title>{$page.title} - {$site.title}</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Mono" rel="stylesheet">
-		<link href="/styles/main.css" rel="stylesheet">
+		<link href="/styles/main-{$accentName}.css" rel="stylesheet">
 		<link href="/fonts/galano/galano.css" rel="stylesheet">
 		<link href="/fonts/icon-12/icon-12.css" rel="stylesheet">
 		<link href="/fonts/icon-16/icon-16.css" rel="stylesheet">

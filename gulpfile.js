@@ -7,6 +7,11 @@ const runSequence = require('run-sequence');
 const sass = require('gulp-sass');
 const ssg = require('metal-ssg');
 
+const util = require('gulp-util')
+const fs = require('fs')
+const insert = require('gulp-insert')
+const rename = require('gulp-rename')
+
 ssg.registerTasks({
 	gulp: gulp,
 	plugins: ['metal-ssg-components']
@@ -14,10 +19,27 @@ ssg.registerTasks({
 
 // CSS -------------------------------------------------------------------------
 
-gulp.task('css', () => {
+gulp.task('colors', () => {
+	const site = JSON.parse(fs.readFileSync('src/site.json'));
+	const accents = site.accents ? site.accents : [{ name: 'default', color: '#4285f4' }];
+
+	return accents.forEach((accent) => {
+		gulp.src('src/styles/main.scss')
+			.pipe(insert.prepend(`$accent: ${accent.color}; \n`))
+			.pipe(rename(`main-${accent.name}.scss`))
+			.pipe(sass({includePaths: ['node_modules']}))
+			.pipe(gulp.dest('dist/styles'));
+	});
+});
+
+gulp.task('sass', () => {
 	return gulp.src('src/styles/**/*.scss')
 		.pipe(sass({includePaths: ['node_modules']}))
 		.pipe(gulp.dest('dist/styles'));
+});
+
+gulp.task('css', (callback) => {
+	runSequence('colors', 'sass', callback);
 });
 
 // Fonts -----------------------------------------------------------------------
