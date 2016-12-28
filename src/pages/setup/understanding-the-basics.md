@@ -4,6 +4,7 @@ icon: "module"
 layout: "setup"
 title: "Understanding the Basics"
 weight: 1
+accentIndex: 0
 ---
 
 ###### In this section, you will learn about keyboard shortcuts and commands. Whenever possible, use keyboard shortcuts to navigate and execute simple actions. The better and faster you are at navigating, the better and faster you can work. The easiest way to understand what each command does is to try them as you go along.

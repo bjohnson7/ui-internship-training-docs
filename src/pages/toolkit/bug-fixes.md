@@ -3,7 +3,8 @@ description: "Bug Fixes description."
 icon: "menu-content"
 layout: "toolkit"
 title: "Bug Fixes"
-weight: 8
+weight: 6
+accentIndex: 5
 ---
 
 <article id="JIRA">

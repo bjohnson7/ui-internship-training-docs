@@ -4,6 +4,7 @@ icon: "fork"
 layout: "setup"
 title: "Understanding Git"
 weight: 5
+accentIndex: 4
 ---
 
 ###### In this section, you will understand how Git works (repositories, remotes, and branches).

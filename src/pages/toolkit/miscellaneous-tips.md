@@ -3,7 +3,8 @@ description: "Miscellaneous Tips description."
 icon: "pen"
 layout: "toolkit"
 title: "Miscellaneous Tips"
-weight: 9
+weight: 8
+accentIndex: 0
 ---
 
 ###### This is anything you will probably encounter at some point that the Wiki doesn't address and doesn't fit into other categories of the Toolbox.

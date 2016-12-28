@@ -4,6 +4,7 @@ icon: "liferay-logo-2-tiny"
 layout: "setup"
 title: "Understanding Liferay Portal"
 weight: 8
+accentIndex: 0
 ---
 
 ###### In this section, you will learn about Liferay and how it runs.

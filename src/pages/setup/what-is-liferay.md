@@ -4,6 +4,7 @@ icon: "liferay-logo"
 layout: "setup"
 title: "What is Liferay?"
 weight: 3
+accentIndex: 2
 ---
 
 ###### There are two editions of Liferay – the Community Edition (CE) and the Enterprise Edition (EE).

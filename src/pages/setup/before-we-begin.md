@@ -4,6 +4,7 @@ icon: "menu-content"
 layout: "setup"
 title: "Before We Begin"
 weight: 2
+accentIndex: 1
 ---
 
 ###### In this section, you will install programs that you will need, as well as set up the environment on your computer in order to use Liferay.

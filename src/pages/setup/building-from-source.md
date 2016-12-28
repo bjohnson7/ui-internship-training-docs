@@ -4,6 +4,7 @@ icon: "hammer"
 layout: "setup"
 title: "Building From Source"
 weight: 10
+accentIndex: 2
 ---
 
 ###### In this section, you will utilize everything you have learned about Liferay in order to build from the source code into a Tomcat application server using Hypersonic as the database.

@@ -4,6 +4,7 @@ icon: "download"
 layout: "setup"
 title: "Getting Liferay's Source code"
 weight: 7
+accentIndex: 6
 ---
 
 ###### In this section, you will learn how to get the Liferay Source Code from your GitHub.com account.

@@ -4,6 +4,7 @@ icon: "gear"
 layout: "setup"
 title: "Portal Configuration"
 weight: 9
+accentIndex: 1
 ---
 
 ###### In this section, you will learn how to configure Liferay Portal's settings to prepare it to run from source code.

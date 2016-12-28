@@ -3,7 +3,8 @@ description: "Debugging Tips description."
 icon: "eye"
 layout: "toolkit"
 title: "Debugging Tips"
-weight: 6
+weight: 5
+accentIndex: 4
 ---
 
 ###### Throughout the internship, you will find yourself working with code that doesn't do what you want it to do, and you'll wonder why. Instead of blankly staring at the code, follow these tips to make the process of debugging easier.

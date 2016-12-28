@@ -4,6 +4,7 @@ icon: "code-file"
 layout: "setup"
 title: "Understanding Source Code"
 weight: 4
+accentIndex: 3
 ---
 
 ###### In this section, you will learn the difference between the source code (source) and the compiled code (bundle).

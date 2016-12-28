@@ -4,6 +4,7 @@ icon: "eye"
 layout: "tutorials"
 title: "Learn CSS"
 weight: 3
+accentIndex: 0
 ---
 
 <article id="whatIsCSS">

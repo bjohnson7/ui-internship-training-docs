@@ -4,6 +4,7 @@ icon: "speedometer"
 layout: "toolkit"
 title: "Keyboard Shortcuts"
 weight: 1
+accentIndex: 0
 ---
 
 <article id="usingShortcuts">

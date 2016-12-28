@@ -4,6 +4,7 @@ icon: "clip"
 layout: "setup"
 title: "Plugins"
 weight: 12
+accentIndex: 4
 ---
 
 ###### In this section, you will learn how to build a Liferay plugin and deploy it into Liferay portal.

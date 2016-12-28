@@ -4,6 +4,7 @@ icon: "command-line"
 layout: "setup"
 title: "The Console"
 weight: 11
+accentIndex: 3
 ---
 
 ###### In this section, you will learn a bit about how to make sense of the Terminal messages.

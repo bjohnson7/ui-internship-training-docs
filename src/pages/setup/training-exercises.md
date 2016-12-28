@@ -4,6 +4,7 @@ icon: "checkmark"
 layout: "setup"
 title: "Training Exercises"
 weight: 13
+accentIndex: 5
 ---
 
 ###### Congratulations! You have successfully set up Liferay on your machine.  We will go through some training exercises to make sure you can navigate your way around Liferay.

@@ -4,6 +4,7 @@ icon: "code-file"
 layout: "toolkit"
 title: "Sublime Text"
 weight: 3
+accentIndex: 2
 ---
 
 ###### Sublime Text is your best friend. After a while, it may be your only friend. And that's alright. Sublime has a ton of features that are indispensable for development. A few of these were mentioned above

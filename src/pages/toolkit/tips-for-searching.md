@@ -3,7 +3,8 @@ description: "Tips for Searching description."
 icon: "magnifier"
 layout: "toolkit"
 title: "Tips For Searching"
-weight: 8
+weight: 7
+accentIndex: 6
 ---
 
 ###### Much of the leg-work of what you'll be doing will involve a significant amount of searching--whether that be for a class name or a property name. Being able to search well is an invaluable asset for your experience and effectiveness while working in UI. Below are some tips for searching well:

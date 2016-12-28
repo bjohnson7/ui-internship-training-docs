@@ -4,6 +4,7 @@ icon: "github"
 layout: "setup"
 title: "Setting Up Git"
 weight: 6
+accentIndex: 5
 ---
 
 ###### In this section, you will learn how to setup your GitHub.com account to begin downloading your source code from the Liferay repositories.

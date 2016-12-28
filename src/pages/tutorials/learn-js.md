@@ -4,6 +4,7 @@ icon: "file-js"
 layout: "tutorials"
 title: "Learn Javascript"
 weight: 4
+accentIndex: 3
 ---
 
 <article id="whatIsJS">

@@ -4,6 +4,7 @@ icon: "fork"
 layout: "tutorials"
 title: "Learn Git"
 weight: 1
+accentIndex: 1
 ---
 
 <article id="whatIsGit">

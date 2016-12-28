@@ -4,6 +4,7 @@ icon: "fork"
 layout: "toolkit"
 title: "Git For Dummies"
 weight: 2
+accentIndex: 1
 ---
 
 [//]: # (TODO -- Need link to "Git Commands" page in #gitSummarized)

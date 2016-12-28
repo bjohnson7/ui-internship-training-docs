@@ -4,6 +4,7 @@ icon: "image"
 layout: "toolkit"
 title: "Theme Creation"
 weight: 4
+accentIndex: 3
 ---
 
 <article id="guidelines">

@@ -4,6 +4,7 @@ icon: "code-file"
 layout: "tutorials"
 title: "Learn HTML"
 weight: 2
+accentIndex: 6
 ---
 
 <article id="whatIsHTML">
