@@ -3,9 +3,11 @@
 	"icon": "liferay-logo",
 	"accents": [
 		{ "name": "default", "color": "#4285F4"},
-		{ "name": "indigo", "color": "#3F51B5" },
 		{ "name": "green", "color": "#00C853" },
+		{ "name": "indigo", "color": "#3F51B5" },
 		{ "name": "amber", "color": "#FFC107" },
-		{ "name": "teal", "color": "#009688" }
+		{ "name": "purple", "color": "#9C27B0" },
+		{ "name": "teal", "color": "#009688" },
+		{ "name": "red", "color": "#C62828" }
 	]
 }
