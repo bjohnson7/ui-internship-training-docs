@@ -1,6 +1,7 @@
 {namespace topics}
 
 /**
+ * @param accents
  * @param page
  * @param? searchContent
  */
@@ -62,6 +63,7 @@
 
 /**
  * @param page
+ * @param accents
  */
 {template .topics}
 		<div class="docs-home-topics">
@@ -79,13 +81,22 @@
 						<div class="row">
 							{foreach $topic in $page.children}
 								{if not $topic.hidden}
+									{let $accent: $accents[$topic.accentIndex] /}
+									{let $accentClass: 'accent-' + $accent.name /}
+
 									<div class="col-md-6 col-xs-16">
-										<a class="topic radial-out" href="{$topic.url}">
+										<a class="topic radial-out {$accentClass}" href="{$topic.url}">
 											<div class="topic-icon">
 												<span class="icon-16-{$topic.icon}"></span>
 											</div>
 											<h3 class="topic-title">{$topic.title}</h3>
 										</a>
+
+										<style>
+											.{$accentClass}.radial-out:before, .{$accentClass} .topic-icon {lb}
+												background: {$accent.color};
+											{rb}
+										</style>
 									</div>
 								{/if}
 							{/foreach}
