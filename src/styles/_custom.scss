@@ -12,6 +12,8 @@
 	@media (max-width: $screen-md-min) {
 		&.sidebar-offset {
 			padding: 12px 20px;
+			flex-wrap: wrap;
+			height: auto;
 		}
 	}
 }
@@ -33,17 +35,10 @@
 
 .docs {
 	.sidebar {
-	bottom: 0;
-	height: auto;
-	overflow-y: auto;
-	top: 0;
-
-		@media (max-width: $screen-md-min) {
-			.docs .sidebar {
-				bottom: auto;
-				top: 60px;
-			}
-		}
+		bottom: 0;
+		height: auto;
+		overflow-y: auto;
+		top: 0;
 	}
 
 	em {
@@ -54,8 +49,14 @@
 		overflow-y: visible;
 	}
 
-	.docs-content pre {
-		white-space: pre-wrap;
+	.docs-content {
+		pre {
+			white-space: pre-wrap;
+		}
+
+		.guide-github {
+			margin: 60px 0;
+		}
 	}
 
 	th, td {
@@ -64,27 +65,43 @@
 	}
 }
 
+@media (max-width: $screen-md-min) {
+	.docs {
+		bottom: auto;
+		top: 60px;
+
+		.sidebar {
+			top: auto;
+			bottom: auto;
+		}
+	}
+}
 
 @media (min-width: $screen-md-min) {
 	$sidebar-width: 340px;
 
-	.docs .sidebar {
-		width: $sidebar-width;
-	}
+	.docs {
+		.sidebar {
+			width: $sidebar-width;
+		}
 
-	.docs .sidebar-offset {
-		margin-left: $sidebar-width + 1px;
-		width: calc(100% - #{$sidebar-width});
-	}
+		.sidebar-offset {
+			margin-left: $sidebar-width + 1px;
+			width: calc(100% - #{$sidebar-width});
+		}
 
-	.docs .sidebar-search {
-		margin: 0;
+		.sidebar-search {
+			margin: 0;
 
-		.form-control {
-			border-radius: 0;
-			border-width: 0 0 1px 0;
+			.form-control {
+				border-radius: 0;
+				border-width: 0 0 1px 0;
+			}
 		}
 	}
+
+
+
 }
 
 /* Header
