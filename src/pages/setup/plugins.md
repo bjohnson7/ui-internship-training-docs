@@ -21,7 +21,7 @@ To make a plugin, you have to take the source code and compile it into a _.war_ 
 
 ## Setting _build.properties_
 
-1. Use Git and set up the [plugins repository](https://github.com/liferay/liferay-plugins), if you have not already done so.  See [See Section 7 (Getting Liferay's Source Code)](/setup/getting-liferays-source-code.html) for more information.
+1. Use Git and set up the [plugins repository](//github.com/liferay/liferay-plugins), if you have not already done so.  See [See Section 7 (Getting Liferay's Source Code)](/setup/getting-liferays-source-code.html) for more information.
 
 2. Create a `build.COMPUTER_NAME.properties` file in the `PATH/liferay-plugins` folder.
 
